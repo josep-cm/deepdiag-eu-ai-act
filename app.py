@@ -92,12 +92,12 @@ Reply with a score from 0.0 (nothing supported) to 1.0 (fully supported) as JSON
 # ── Page layout ───────────────────────────────────────────────────────────────
 
 st.set_page_config(
-    page_title="RAG Diagnostics — EU AI Act",
+    page_title="DeepDiag: RAG on the EU AI Act",
     page_icon="⚖️",
     layout="wide",
 )
 
-st.title("⚖️ RAG Diagnostics")
+st.title("⚖️ DeepDiag: RAG on the EU AI Act")
 st.caption("Ask anything about the EU AI Act (Regulation EU 2024/1689)")
 
 # Load resources

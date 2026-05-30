@@ -1,4 +1,4 @@
-# RAG Diagnostics — Dissecting Where AI Systems Fail on Legal Text
+# DeepDiag: RAG on the EU AI Act
 
 > Most RAG evaluations tell you *how good* the system is.
 > This one tells you *exactly why it fails* — and what to fix first.

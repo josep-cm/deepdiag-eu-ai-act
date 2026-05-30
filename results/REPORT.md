@@ -1,4 +1,4 @@
-# RAG Diagnostics — Final Results Report
+# DeepDiag: RAG on the EU AI Act — Final Results Report
 
 **Corpus:** EU AI Act (Regulation EU 2024/1689)
 **Eval set:** 98 Q/A pairs with gold chunk IDs
