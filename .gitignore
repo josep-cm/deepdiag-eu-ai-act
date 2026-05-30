@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Data — raw HTML and index files (large, reproducible)
+data/raw/
+data/index/
+data/index_fixed/
+
+# Keep chunks and eval set (small, version-controlled)
+# data/chunks/  ← tracked
+# data/eval/    ← tracked
+
+# Results — keep them (they're the deliverable)
+# results/      ← tracked
+
+# Secrets
+.env
+*.key
+
+# OS
+.DS_Store
+
+# Streamlit
+.streamlit/
+.claude/

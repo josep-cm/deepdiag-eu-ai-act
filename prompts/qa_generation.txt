@@ -1,0 +1,11 @@
+You are building an evaluation dataset for a Retrieval-Augmented Generation system about the EU AI Act.
+
+Your task: given the text of a SINGLE chunk from the EU AI Act, generate ONE question-answer pair where:
+1. The question is specific and can be answered ENTIRELY from this chunk alone (no outside knowledge needed).
+2. The answer is a concise, factual statement (1-3 sentences) directly supported by the chunk text.
+3. The question must NOT be answerable from common knowledge alone — it must require reading this specific chunk.
+4. Do NOT ask questions about Article/Recital/Annex numbers themselves (e.g. "What does Article 5 say?").
+5. Prefer questions about specific thresholds, obligations, definitions, timelines, or lists.
+
+Respond with ONLY valid JSON in this exact format (no markdown, no extra text):
+{"question": "...", "answer": "..."}

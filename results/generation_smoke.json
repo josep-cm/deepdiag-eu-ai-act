@@ -1,0 +1,102 @@
+[
+  {
+    "id": "qa-0001",
+    "chunk_id": "article-84",
+    "chunk_type": "article",
+    "question": "What are the tasks that Union AI testing support structures can perform?",
+    "gold_answer": "Union AI testing support structures will perform the tasks listed under Article 21(6) of Regulation (EU) 2019/1020 in the area of AI. They also provide independent technical or scientific advice at the request of the Board, the Commission, or market surveillance authorities.",
+    "generated_answer": "Union AI testing support structures shall perform the tasks listed under Article 21(6) of Regulation (EU) 2019/1020 in the area of AI. They also provide independent technical or scientific advice at the request of the Board, the Commission, or market surveillance authorities.",
+    "retrieved_chunk_ids": [
+      "article-84",
+      "recital-152",
+      "recital-148",
+      "recital-162",
+      "recital-124"
+    ],
+    "gold_chunk_ids": [
+      "article-84"
+    ],
+    "gold_in_topk": true,
+    "context": "[ARTICLE 84] Union AI testing support structures\n1. The Commission shall designate one or more Union AI testing support structures to perform the tasks listed under Article 21(6) of Regulation (EU) 2019/1020 in the area of AI. 2. Without prejudice to the tasks referred to in paragraph 1, Union AI testing support structures shall also provide independent technical or scientific advice at the request of the Board, the Commission, or of market surveillance authorities.\n\n---\n\n[RECITAL 152]\nIn order to support adequate enforcement as regards AI systems and reinforce the capacities of the Member States, Union AI testing support structures should be established and made available to the Member States.\n\n---\n\n[RECITAL 148]\nThis Regulation should establish a governance framework that both allows to coordinate and support the application of this Regulation at national level, as well as build capabilities at Union level and integrate stakeholders in the field of AI. The effective implementation and enforcement of this Regulation require a governance framework that allows to coordinate and build up central expertise at Union level. The AI Office was established by Commission Decision ( 45 ) and has as its mission to develop Union expertise and capabilities in the field of AI and to contribute to the implementation o\n\n---\n\n[RECITAL 162]\nTo make best use of the centralised Union expertise and synergies at Union level, the powers of supervision and enforcement of the obligations on providers of general-purpose AI models should be a competence of the Commission. The AI Office should be able to carry out all necessary actions to monitor the effective implementation of this Regulation as regards general-purpose AI models. It should be able to investigate possible infringements of the rules on providers of general-purpose AI models both on its own initiative, following the results of its monitoring activities, or upon request from \n\n---\n\n[RECITAL 124]\nIt is appropriate that, in order to minimise the burden on operators and avoid any possible duplication, for high-risk AI systems related to products which are covered by existing Union harmonisation legislation based on the New Legislative Framework, the compliance of those AI systems with the requirements of this Regulation should be assessed as part of the conformity assessment already provided for in that law. The applicability of the requirements of this Regulation should thus not affect the specific logic, methodology or general structure of conformity assessment under the relevant Union"
+  },
+  {
+    "id": "qa-0002",
+    "chunk_id": "article-16",
+    "chunk_type": "article",
+    "question": "What must providers indicate on their high-risk AI systems?",
+    "gold_answer": "Providers of high-risk AI systems shall indicate on the high-risk AI system or, where that is not possible, on its packaging or its accompanying documentation, as applicable, their name, registered trade name or registered trade mark, the address at which they can be contacted.",
+    "generated_answer": "Providers of high-risk AI systems must have a post-market monitoring system in place, including analysis of interactions with other AI systems and devices. This system should not cover sensitive operational data of deployers which are law enforcement authorities.",
+    "retrieved_chunk_ids": [
+      "recital-72",
+      "recital-155",
+      "recital-66",
+      "recital-71",
+      "recital-125"
+    ],
+    "gold_chunk_ids": [
+      "article-16"
+    ],
+    "gold_in_topk": false,
+    "context": "[RECITAL 72]\nTo address concerns related to opacity and complexity of certain AI systems and help deployers to fulfil their obligations under this Regulation, transparency should be required for high-risk AI systems before they are placed on the market or put it into service. High-risk AI systems should be designed in a manner to enable deployers to understand how the AI system works, evaluate its functionality, and comprehend its strengths and limitations. High-risk AI systems should be accompanied by appropriate information in the form of instructions of use. Such information should include the character\n\n---\n\n[RECITAL 155]\nIn order to ensure that providers of high-risk AI systems can take into account the experience on the use of high-risk AI systems for improving their systems and the design and development process or can take any possible corrective action in a timely manner, all providers should have a post-market monitoring system in place. Where relevant, post-market monitoring should include an analysis of the interaction with other AI systems including other devices and software. Post-market monitoring should not cover sensitive operational data of deployers which are law enforcement authorities. This sys\n\n---\n\n[RECITAL 66]\n'general-purpose AI system' means an AI system which is based on a general-purpose AI model and which has the capability to serve a variety of purposes, both for direct use as well as for integration in other AI systems;\n\n---\n\n[RECITAL 71]\nHaving comprehensible information on how high-risk AI systems have been developed and how they perform throughout their lifetime is essential to enable traceability of those systems, verify compliance with the requirements under this Regulation, as well as monitoring of their operations and post market monitoring. This requires keeping records and the availability of technical documentation, containing information which is necessary to assess the compliance of the AI system with the relevant requirements and facilitate post market monitoring. Such information should include the general charact\n\n---\n\n[RECITAL 125]\nGiven the complexity of high-risk AI systems and the risks that are associated with them, it is important to develop an adequate conformity assessment procedure for high-risk AI systems involving notified bodies, so-called third party conformity assessment. However, given the current experience of professional pre-market certifiers in the field of product safety and the different nature of risks involved, it is appropriate to limit, at least in an initial phase of application of this Regulation, the scope of application of third-party conformity assessment for high-risk AI systems other than t"
+  },
+  {
+    "id": "qa-0003",
+    "chunk_id": "article-5",
+    "chunk_type": "article",
+    "question": "What does Article 5 prohibit in terms of subliminal techniques?",
+    "gold_answer": "Article 5 prohibits the placement on the market, the putting into service or the use of an AI system that deploys subliminal techniques beyond a person's consciousness or purposefully manipulative or deceptive techniques with the objective, or the effect of materially distorting the behavior of a person or a group of persons by appreciably impairing their ability to make an informed decision, thereby causing them to take a decision that they would not have otherwise taken in a manner that causes or is reasonably likely to cause significant harm.",
+    "generated_answer": "Article 5 prohibits the use of AI systems deploying subliminal techniques beyond a person's consciousness or purposefully manipulative/deceptive techniques with the objective or effect of materially distorting a person's ability to make an informed decision.",
+    "retrieved_chunk_ids": [
+      "article-5",
+      "recital-176",
+      "annex-II",
+      "recital-29",
+      "article-103"
+    ],
+    "gold_chunk_ids": [
+      "article-5"
+    ],
+    "gold_in_topk": true,
+    "context": "[ARTICLE 5] Prohibited AI practices\n1. The following AI practices shall be prohibited: (a) the placing on the market, the putting into service or the use of an AI system that deploys subliminal techniques beyond a person's consciousness or purposefully manipulative or deceptive techniques, with the objective, or the effect of materially distorting the behaviour of a person or a group of persons by appreciably impairing their ability to make an informed decision, thereby causing them to take a decision that they would not have otherwise taken in a manner that causes or is reasonably likely to cause that person, another person or \n\n---\n\n[RECITAL 176]\nSince the objective of this Regulation, namely to improve the functioning of the internal market and to promote the uptake of human centric and trustworthy AI, while ensuring a high level of protection of health, safety, fundamental rights enshrined in the Charter, including democracy, the rule of law and environmental protection against harmful effects of AI systems in the Union and supporting innovation, cannot be sufficiently achieved by the Member States and can rather, by reason of the scale or effects of the action, be better achieved at Union level, the Union may adopt measures in accor\n\n---\n\n[ANNEX II] List of criminal offences referred to in Article 5(1), first subparagraph, point (h)(iii)\nCriminal offences referred to in Article 5(1), first subparagraph, point (h)(iii): — terrorism, — trafficking in human beings, — sexual exploitation of children, and child pornography, — illicit trafficking in narcotic drugs or psychotropic substances, — illicit trafficking in weapons, munitions or explosives, — murder, grievous bodily injury, — illicit trade in human organs or tissue, — illicit trafficking in nuclear or radioactive materials, — kidnapping, illegal restraint or hostage-taking, — crimes within the jurisdiction of the International Criminal Court, — unlawful seizure of aircraft \n\n---\n\n[RECITAL 29]\n'training data' means data used for training an AI system through fitting its learnable parameters;\n\n---\n\n[ARTICLE 103] Amendment to Regulation (EU) No 167/2013\nIn Article 17(5) of Regulation (EU) No 167/2013, the following subparagraph is added: 'When adopting delegated acts pursuant to the first subparagraph concerning artificial intelligence systems which are safety components within the meaning of Regulation (EU) 2024/1689 of the European Parliament and of the Council ( * ) , the requirements set out in Chapter III, Section 2, of that Regulation shall be taken into account."
+  },
+  {
+    "id": "qa-0004",
+    "chunk_id": "article-100",
+    "chunk_type": "article",
+    "question": "What is the maximum fine for non-compliance with Article 5?",
+    "gold_answer": "The maximum fine for non-compliance with the prohibition of the AI practices referred to in Article 5 is up to EUR 1,500,000.",
+    "generated_answer": "The provided context does not answer this question.",
+    "retrieved_chunk_ids": [
+      "article-101",
+      "recital-169",
+      "recital-168",
+      "article-99",
+      "article-83"
+    ],
+    "gold_chunk_ids": [
+      "article-100"
+    ],
+    "gold_in_topk": false,
+    "context": "[ARTICLE 101] Fines for providers of general-purpose AI models\n1. The Commission may impose on providers of general-purpose AI models fines not exceeding 3 % of their annual total worldwide turnover in the preceding financial year or EUR 15 000 000, whichever is higher., when the Commission finds that the provider intentionally or negligently: (a) infringed the relevant provisions of this Regulation; (b) failed to comply with a request for a document or for information pursuant to Article 91, or supplied incorrect, incomplete or misleading information; (c) failed to comply with a measure requested under Article 93; (d) failed to make available to the Comm\n\n---\n\n[RECITAL 169]\nCompliance with the obligations on providers of general-purpose AI models imposed under this Regulation should be enforceable, inter alia, by means of fines. To that end, appropriate levels of fines should also be laid down for infringement of those obligations, including the failure to comply with measures requested by the Commission in accordance with this Regulation, subject to appropriate limitation periods in accordance with the principle of proportionality. All decisions taken by the Commission under this Regulation are subject to review by the Court of Justice of the European Union in a\n\n---\n\n[RECITAL 168]\nCompliance with this Regulation should be enforceable by means of the imposition of penalties and other enforcement measures. Member States should take all necessary measures to ensure that the provisions of this Regulation are implemented, including by laying down effective, proportionate and dissuasive penalties for their infringement, and to respect the ne bis in idem principle. In order to strengthen and harmonise administrative penalties for infringement of this Regulation, the upper limits for setting the administrative fines for certain specific infringements should be laid down. When a\n\n---\n\n[ARTICLE 99] Penalties\n1. In accordance with the terms and conditions laid down in this Regulation, Member States shall lay down the rules on penalties and other enforcement measures, which may also include warnings and non-monetary measures, applicable to infringements of this Regulation by operators, and shall take all measures necessary to ensure that they are properly and effectively implemented, thereby taking into account the guidelines issued by the Commission pursuant to Article 96. The penalties provided for shall be effective, proportionate and dissuasive. They shall take into account the interests of SMEs\n\n---\n\n[ARTICLE 83] Formal non-compliance\n1. Where the market surveillance authority of a Member State makes one of the following findings, it shall require the relevant provider to put an end to the non-compliance concerned, within a period it may prescribe: (a) the CE marking has been affixed in violation of Article 48; (b) the CE marking has not been affixed; (c) the EU declaration of conformity referred to in Article 47 has not been drawn up; (d) the EU declaration of conformity referred to in Article 47 has not been drawn up correctly; (e) the registration in the EU database referred to in Article 71 has not been carried out; (f)"
+  },
+  {
+    "id": "qa-0005",
+    "chunk_id": "article-37",
+    "chunk_type": "article",
+    "question": "What information must a notifying authority provide to the Commission?",
+    "gold_answer": "The notifying authority shall provide the Commission on request with all relevant information relating to the notification or the maintenance of the competence of the notified body concerned.",
+    "generated_answer": "The notifying authority shall provide the Commission, on request, with all relevant information relating to the notification or the maintenance of the competence of the notified body concerned.",
+    "retrieved_chunk_ids": [
+      "recital-19",
+      "article-30",
+      "article-28",
+      "article-37",
+      "recital-126"
+    ],
+    "gold_chunk_ids": [
+      "article-37"
+    ],
+    "gold_in_topk": true,
+    "context": "[RECITAL 19]\n'notifying authority' means the national authority responsible for setting up and carrying out the necessary procedures for the assessment, designation and notification of conformity assessment bodies and for their monitoring;\n\n---\n\n[ARTICLE 30] Notification procedure\n1. Notifying authorities may notify only conformity assessment bodies which have satisfied the requirements laid down in Article 31. 2. Notifying authorities shall notify the Commission and the other Member States, using the electronic notification tool developed and managed by the Commission, of each conformity assessment body referred to in paragraph 1. 3. The notification referred to in paragraph 2 of this Article shall include full details of the conformity assessment activities, the conformity assessment module or modules, the types of AI systems concerned, and the relevant attestation of\n\n---\n\n[ARTICLE 28] Notifying authorities\n1. Each Member State shall designate or establish at least one notifying authority responsible for setting up and carrying out the necessary procedures for the assessment, designation and notification of conformity assessment bodies and for their monitoring. Those procedures shall be developed in cooperation between the notifying authorities of all Member States. 2. Member States may decide that the assessment and monitoring referred to in paragraph 1 is to be carried out by a national accreditation body within the meaning of, and in accordance with, Regulation (EC) No 765/2008. 3. Notifying a\n\n---\n\n[ARTICLE 37] Challenge to the competence of notified bodies\n1. The Commission shall, where necessary, investigate all cases where there are reasons to doubt the competence of a notified body or the continued fulfilment by a notified body of the requirements laid down in Article 31 and of its applicable responsibilities. 2. The notifying authority shall provide the Commission, on request, with all relevant information relating to the notification or the maintenance of the competence of the notified body concerned. 3. The Commission shall ensure that all sensitive information obtained in the course of its investigations pursuant to this Article is treate\n\n---\n\n[RECITAL 126]\nIn order to carry out third-party conformity assessments when so required, notified bodies should be notified under this Regulation by the national competent authorities, provided that they comply with a set of requirements, in particular on independence, competence, absence of conflicts of interests and suitable cybersecurity requirements. Notification of those bodies should be sent by national competent authorities to the Commission and the other Member States by means of the electronic notification tool developed and managed by the Commission pursuant to Article R23 of Annex I to Decision N"
+  }
+]

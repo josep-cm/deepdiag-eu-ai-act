@@ -1,0 +1,1276 @@
+[
+  {
+    "id": "qa-0001",
+    "chunk_id": "article-84",
+    "chunk_type": "article",
+    "chunk_number": "84",
+    "chunk_title": "Union AI testing support structures",
+    "question": "What are the tasks that Union AI testing support structures can perform?",
+    "answer": "Union AI testing support structures will perform the tasks listed under Article 21(6) of Regulation (EU) 2019/1020 in the area of AI. They also provide independent technical or scientific advice at the request of the Board, the Commission, or market surveillance authorities.",
+    "gold_chunk_ids": [
+      "article-84"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0002",
+    "chunk_id": "article-16",
+    "chunk_type": "article",
+    "chunk_number": "16",
+    "chunk_title": "Obligations of providers of high-risk AI systems",
+    "question": "What must providers indicate on their high-risk AI systems?",
+    "answer": "Providers of high-risk AI systems shall indicate on the high-risk AI system or, where that is not possible, on its packaging or its accompanying documentation, as applicable, their name, registered trade name or registered trade mark, the address at which they can be contacted.",
+    "gold_chunk_ids": [
+      "article-16"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0003",
+    "chunk_id": "article-5",
+    "chunk_type": "article",
+    "chunk_number": "5",
+    "chunk_title": "Prohibited AI practices",
+    "question": "What does Article 5 prohibit in terms of subliminal techniques?",
+    "answer": "Article 5 prohibits the placement on the market, the putting into service or the use of an AI system that deploys subliminal techniques beyond a person's consciousness or purposefully manipulative or deceptive techniques with the objective, or the effect of materially distorting the behavior of a person or a group of persons by appreciably impairing their ability to make an informed decision, thereby causing them to take a decision that they would not have otherwise taken in a manner that causes or is reasonably likely to cause significant harm.",
+    "gold_chunk_ids": [
+      "article-5"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0004",
+    "chunk_id": "article-100",
+    "chunk_type": "article",
+    "chunk_number": "100",
+    "chunk_title": "Administrative fines on Union institutions, bodies, offices and agencies",
+    "question": "What is the maximum fine for non-compliance with Article 5?",
+    "answer": "The maximum fine for non-compliance with the prohibition of the AI practices referred to in Article 5 is up to EUR 1,500,000.",
+    "gold_chunk_ids": [
+      "article-100"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0005",
+    "chunk_id": "article-37",
+    "chunk_type": "article",
+    "chunk_number": "37",
+    "chunk_title": "Challenge to the competence of notified bodies",
+    "question": "What information must a notifying authority provide to the Commission?",
+    "answer": "The notifying authority shall provide the Commission on request with all relevant information relating to the notification or the maintenance of the competence of the notified body concerned.",
+    "gold_chunk_ids": [
+      "article-37"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0006",
+    "chunk_id": "article-33",
+    "chunk_type": "article",
+    "chunk_number": "33",
+    "chunk_title": "Subsidiaries of notified bodies and subcontracting",
+    "question": "What must notified bodies do regarding their subsidiaries?",
+    "answer": "Notified bodies must ensure that any subsidiary or subcontractor meets the requirements laid down in Article 31 and inform the notifying authority accordingly. They also take full responsibility for tasks performed by any subcontractors or subsidiaries, make a list of their subsidiaries publicly available, and keep relevant documents concerning the qualifications of the subcontractor or subsidiary and the work carried out under this Regulation at the disposal of the notifying authority for five years from the termination date of the subcontracting.",
+    "gold_chunk_ids": [
+      "article-33"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0007",
+    "chunk_id": "article-30",
+    "chunk_type": "article",
+    "chunk_number": "30",
+    "chunk_title": "Notification procedure",
+    "question": "What must a notifying authority provide for non-accredited conformity assessment bodies?",
+    "answer": "A notifying authority must provide the Commission and other Member States with documentary evidence which attests to the competence of the conformity assessment body and to the arrangements in place to ensure that the body will be monitored regularly and will continue to satisfy the requirements laid down in Article 31.",
+    "gold_chunk_ids": [
+      "article-30"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0008",
+    "chunk_id": "article-19",
+    "chunk_type": "article",
+    "chunk_number": "19",
+    "chunk_title": "Automatically generated logs",
+    "question": "What is the minimum duration for keeping automatically generated logs?",
+    "answer": "The minimum duration for keeping automatically generated logs is at least six months, unless provided otherwise in applicable Union or national laws.",
+    "gold_chunk_ids": [
+      "article-19"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0009",
+    "chunk_id": "article-110",
+    "chunk_type": "article",
+    "chunk_number": "110",
+    "chunk_title": "Amendment to Directive (EU) 2020/1828",
+    "question": "What is the full name of the regulation added to Annex I?",
+    "answer": "Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations (EC) No 300/2008, (EU) No 167/2013, (EU) No 168/2013, (EU) 2018/858, (EU) 2018/1139 and (EU) 2019/2144 and Directives 2014/90/EU, (EU) 2016/797 and (EU) 2020/1828",
+    "gold_chunk_ids": [
+      "article-110"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0010",
+    "chunk_id": "article-15",
+    "chunk_type": "article",
+    "chunk_number": "15",
+    "chunk_title": "Accuracy, robustness and cybersecurity",
+    "question": "What measures are required for high-risk AI systems to remain resilient against unauthorised third parties?",
+    "answer": "High-risk AI systems that continue to learn after being placed on the market or put into service shall be developed in such a way as to eliminate or reduce as far as possible the risk of possibly biased outputs influencing input for future operations (feedback loops), and as to ensure that any such feedback loops are duly addressed with appropriate mitigation measures.",
+    "gold_chunk_ids": [
+      "article-15"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0011",
+    "chunk_id": "article-90",
+    "chunk_type": "article",
+    "chunk_number": "90",
+    "chunk_title": "Alerts of systemic risks by the scientific panel",
+    "question": "What must a qualified alert include according to Article 90 of the EU AI Act?",
+    "answer": "A qualified alert shall be duly reasoned and indicate at least: (a) the point of contact of the provider of the general-purpose AI model with systemic risk concerned; (b) a description of the relevant facts and the reasons for the alert by the scientific panel; (c) any other information that the scientific panel considers to be relevant, including, where appropriate, information gathered on its own initiative.",
+    "gold_chunk_ids": [
+      "article-90"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0012",
+    "chunk_id": "article-105",
+    "chunk_type": "article",
+    "chunk_number": "105",
+    "chunk_title": "Amendment to Directive 2014/90/EU",
+    "question": "What does the Commission need to consider for safety components under Article 8?",
+    "answer": "The Commission needs to consider the requirements set out in Chapter III, Section 2, of Regulation (EU) 2024/1689 when a safety component is carrying out its activities pursuant to paragraph 1 and adopting technical specifications and testing standards.",
+    "gold_chunk_ids": [
+      "article-105"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0013",
+    "chunk_id": "article-72",
+    "chunk_type": "article",
+    "chunk_number": "72",
+    "chunk_title": "Post-market monitoring by providers and post-market monitoring plan for high-risk AI systems",
+    "question": "What is required for a post-market monitoring system to be established?",
+    "answer": "Providers are required to establish and document a post-market monitoring system that is proportionate to the nature of the AI technologies and the risks of the high-risk AI system. This system shall actively and systematically collect, document, and analyze relevant data on the performance of high-risk AI systems throughout their lifetime.",
+    "gold_chunk_ids": [
+      "article-72"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0014",
+    "chunk_id": "article-13",
+    "chunk_type": "article",
+    "chunk_number": "13",
+    "chunk_title": "Transparency and provision of information to deployers",
+    "question": "What must high-risk AI systems include in their instructions for use?",
+    "answer": "High-risk AI systems must contain instructions for use that include at least the following information: (a) the identity and contact details of the provider and, where applicable, of its authorised representative; (b) the characteristics, capabilities and limitations of performance of the high-risk AI system, including: (i) its intended purpose; (ii) the level of accuracy, including its metrics, robustness and cybersecurity referred to in Article 15 against which the high-risk AI system has been tested and validated and which can be expected, and any known and foreseeable circumstances that may have an impact on that expected level of accuracy, robustness and cybersecurity; (iii) any known or foreseeable circumstance related to the use of the high-risk AI system in accordance with its intended purpose or under conditions of reasonably foreseeable misuse, which may lead to risks to the health and safety or fundamental rights referred to in Article 9(2); (iv) where applicable, the technical capabilities and characteristics of the high-risk AI system to provide information that is relevant to explain its output; (v) when appropriate, its performance regarding specific persons or groups of persons on which the system is intended to be used; (vi) when appropriate, specifications for the input data, or any other relevant information in terms of the training, validation and testing.",
+    "gold_chunk_ids": [
+      "article-13"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0015",
+    "chunk_id": "article-78",
+    "chunk_type": "article",
+    "chunk_number": "78",
+    "chunk_title": "Confidentiality",
+    "question": "What information is exempt from confidentiality requirements under Article 78?",
+    "answer": "The intellectual property rights and confidential business information or trade secrets of a natural or legal person, including source code, except in the cases referred to in Article 5 of Directive (EU) 2016/943 of the European Parliament and of the Council.",
+    "gold_chunk_ids": [
+      "article-78"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0016",
+    "chunk_id": "article-56",
+    "chunk_type": "article",
+    "chunk_number": "56",
+    "chunk_title": "Codes of practice",
+    "question": "What are the issues covered by the codes of practice according to Article 56?",
+    "answer": "The codes of practice should cover obligations provided for in Articles 53 and 55, including: ensuring information is kept up-to-date based on market and technological developments; providing adequate detail about training content summaries; identifying systemic risks at Union level, their sources, severity and probability, and specific challenges; and setting out measures to assess and manage those risks proportionate to the risks.",
+    "gold_chunk_ids": [
+      "article-56"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0017",
+    "chunk_id": "article-6",
+    "chunk_type": "article",
+    "chunk_number": "6",
+    "chunk_title": "Classification rules for high-risk AI systems",
+    "question": "What conditions must an AI system meet to be classified as high-risk according to Article 6?",
+    "answer": "An AI system is considered high-risk if it meets either condition (a) or (b) from paragraph 1: Condition (a) states that the AI system is intended to be used as a safety component of a product, or the AI system itself is a product, covered by Union harmonisation legislation listed in Annex I. Condition (b) requires that the product whose safety component is the AI system, or the AI system itself as a product, must undergo a third-party conformity assessment for placing on the market or putting into service according to the Union harmonisation legislation listed in Annex I.",
+    "gold_chunk_ids": [
+      "article-6"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0018",
+    "chunk_id": "article-111",
+    "chunk_type": "article",
+    "chunk_number": "111",
+    "chunk_title": "AI systems already placed on the market or put into service and general-purpose AI models already placed on the marked",
+    "question": "What are the compliance deadlines for high-risk AI systems?",
+    "answer": "High-risk AI systems that have been placed on the market or put into service before 2 August 2026, and as from that date, those systems are subject to significant changes in their designs, must comply with this Regulation by 2 August 2030. Providers of general-purpose AI models that have been placed on the market before 2 August 2025 shall take necessary steps to comply with the obligations laid down in this Regulation by 2 August 2027.",
+    "gold_chunk_ids": [
+      "article-111"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0019",
+    "chunk_id": "article-102",
+    "chunk_type": "article",
+    "chunk_number": "102",
+    "chunk_title": "Amendment to Regulation (EC) No 300/2008",
+    "question": "What detailed measures are required for security equipment related to AI systems?",
+    "answer": "When adopting detailed measures related to technical specifications and procedures for approval and use of security equipment concerning Artificial Intelligence systems within the meaning of Regulation (EU) 2024/1689 of the European Parliament and of the Council, the requirements set out in Chapter III, Section 2, of that Regulation shall be taken into account.",
+    "gold_chunk_ids": [
+      "article-102"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0020",
+    "chunk_id": "article-29",
+    "chunk_type": "article",
+    "chunk_number": "29",
+    "chunk_title": "Application of a conformity assessment body for notification",
+    "question": "What types of AI systems can a conformity assessment body claim competence for?",
+    "answer": "A conformity assessment body can claim competence for any types of AI systems as long as they provide an application for notification to the notifying authority, accompanied by a description of their conformity assessment activities and modules, and an accreditation certificate from a national accreditation body.",
+    "gold_chunk_ids": [
+      "article-29"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0021",
+    "chunk_id": "article-31",
+    "chunk_type": "article",
+    "chunk_number": "31",
+    "chunk_title": "Requirements relating to notified bodies",
+    "question": "What are the requirements for notified bodies in terms of organisational structure?",
+    "answer": "A notified body must have an organisational structure that ensures confidence in its performance and meets responsibilities, allocation of duties, reporting lines, and operation as outlined in Article 31(4). This includes ensuring independence from providers and operators with economic interests in high-risk AI systems.",
+    "gold_chunk_ids": [
+      "article-31"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0022",
+    "chunk_id": "article-67",
+    "chunk_type": "article",
+    "chunk_number": "67",
+    "chunk_title": "Advisory forum",
+    "question": "What is the maximum extension period for the term of office of the members of the advisory forum?",
+    "answer": "The term of office of the members of the advisory forum shall be two years, which may be extended by up to no more than four years.",
+    "gold_chunk_ids": [
+      "article-67"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0023",
+    "chunk_id": "article-80",
+    "chunk_type": "article",
+    "chunk_number": "80",
+    "chunk_title": "Procedure for dealing with AI systems classified by the provider as non-high-risk in application of Annex III",
+    "question": "What is the maximum time frame for a market surveillance authority to require corrective action from an AI system provider?",
+    "answer": "The market surveillance authority may prescribe a period within which it requires the relevant provider to take all necessary actions to bring the AI system into compliance with the requirements and obligations laid down in this Regulation.",
+    "gold_chunk_ids": [
+      "article-80"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0024",
+    "chunk_id": "article-95",
+    "chunk_type": "article",
+    "chunk_number": "95",
+    "chunk_title": "Codes of conduct for voluntary application of specific requirements",
+    "question": "What are the key performance indicators for codes of conduct concerning the voluntary application of specific requirements to all AI systems?",
+    "answer": "The key performance indicators include: (a) applicable elements provided for in Union ethical guidelines for trustworthy AI; (b) assessing and minimising the impact of AI systems on environmental sustainability, including as regards energy-efficient programming and techniques for the efficient design, training and use of AI; (c) promoting AI literacy, in particular that of persons dealing with the development, operation and use of AI; (d) facilitating an inclusive and diverse design of AI systems, including through the establishment of inclusive and diverse development teams and the promotion of stakeholders' participation in that process; (e) assessing and preventing the negative impact of AI systems on vulnerable persons or groups of vulnerable persons, including as regards accessibility for persons with a disability, as well as on gender equality.",
+    "gold_chunk_ids": [
+      "article-95"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0025",
+    "chunk_id": "article-74",
+    "chunk_type": "article",
+    "chunk_number": "74",
+    "chunk_title": "Market surveillance and control of AI systems in the Union market",
+    "question": "What does 'any reference to a product under Regulation (EU) 2019/1020' include?",
+    "answer": "Any reference to a product under Regulation (EU) 2019/1020 shall be understood as including all AI systems falling within the scope of this Regulation.",
+    "gold_chunk_ids": [
+      "article-74"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0026",
+    "chunk_id": "article-27",
+    "chunk_type": "article",
+    "chunk_number": "27",
+    "chunk_title": "Fundamental rights impact assessment for high-risk AI systems",
+    "question": "What must a deployer describe regarding the categories of natural persons and groups affected by the use of a high-risk AI system?",
+    "answer": "A deployer must describe the categories of natural persons and groups likely to be affected by the use of the high-risk AI system in the specific context, as specified in point (c) of this paragraph.",
+    "gold_chunk_ids": [
+      "article-27"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0027",
+    "chunk_id": "article-101",
+    "chunk_type": "article",
+    "chunk_number": "101",
+    "chunk_title": "Fines for providers of general-purpose AI models",
+    "question": "What is the maximum fine a provider can receive under Article 101?",
+    "answer": "The maximum fine a provider can receive under Article 101 is not exceeding 3% of their annual total worldwide turnover in the preceding financial year or EUR 15,000,000, whichever is higher.",
+    "gold_chunk_ids": [
+      "article-101"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0028",
+    "chunk_id": "article-55",
+    "chunk_type": "article",
+    "chunk_number": "55",
+    "chunk_title": "Obligations of providers of general-purpose AI models with systemic risk",
+    "question": "What must providers do regarding adversarial testing of their general-purpose AI models?",
+    "answer": "Providers of general-purpose AI models with systemic risk must perform model evaluation in accordance with standardised protocols and tools, including conducting adversarial testing to identify and mitigate systemic risks.",
+    "gold_chunk_ids": [
+      "article-55"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0029",
+    "chunk_id": "article-107",
+    "chunk_type": "article",
+    "chunk_number": "107",
+    "chunk_title": "Amendment to Regulation (EU) 2018/858",
+    "question": "What does the new regulation require for safety components within the meaning of Regulation (EU) 2024/1689?",
+    "answer": "When adopting delegated acts pursuant to paragraph 3 concerning Artificial Intelligence systems which are safety components within the meaning of Regulation (EU) 2024/1689, the requirements set out in Chapter III, Section 2, of that Regulation shall be taken into account.",
+    "gold_chunk_ids": [
+      "article-107"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0030",
+    "chunk_id": "article-59",
+    "chunk_type": "article",
+    "chunk_number": "59",
+    "chunk_title": "Further processing of personal data for developing certain AI systems in the public interest in the AI regulatory sandbox",
+    "question": "What is required for AI systems to be developed in the public interest?",
+    "answer": "AI systems shall be developed for safeguarding substantial public interest by a public authority or another natural or legal person and in one or more of the following areas: (i) public safety and public health, including disease detection, diagnosis prevention, control and treatment and improvement of health care systems; (ii) a high level of protection and improvement of the quality of the environment, protection of biodiversity, protection against pollution, green transition measures, climate change mitigation and adaptation measures; (iii) energy sustainability; (iv) safety and resilience of transport systems and mobility, critical infrastructure and networks; (v) efficiency and quality of public administration and public services.",
+    "gold_chunk_ids": [
+      "article-59"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0031",
+    "chunk_id": "article-99",
+    "chunk_type": "article",
+    "chunk_number": "99",
+    "chunk_title": "Penalties",
+    "question": "What is the maximum fine for non-compliance with the AI practices prohibition?",
+    "answer": "The maximum fine for non-compliance with the AI practices prohibition is up to EUR 35,000,000 or, if the offender is an undertaking, up to 7% of its total worldwide annual turnover for the preceding financial year, whichever is higher.",
+    "gold_chunk_ids": [
+      "article-99"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0032",
+    "chunk_id": "article-109",
+    "chunk_type": "article",
+    "chunk_number": "109",
+    "chunk_title": "Amendment to Regulation (EU) 2019/2144",
+    "question": "What does 'safety components' refer to according to Article 11 of Regulation (EU) 2019/2144?",
+    "answer": "Safety components referred to in Article 11 of Regulation (EU) 2019/2144 are those mentioned in Regulation (EU) 2024/1689 of the European Parliament and of the Council.",
+    "gold_chunk_ids": [
+      "article-109"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0033",
+    "chunk_id": "article-1",
+    "chunk_type": "article",
+    "chunk_number": "1",
+    "chunk_title": "Subject matter",
+    "question": "What are the specific requirements for high-risk AI systems?",
+    "answer": "Specific requirements for high-risk AI systems include prohibitions of certain practices as laid down in this Regulation and obligations for operators of such systems.",
+    "gold_chunk_ids": [
+      "article-1"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0034",
+    "chunk_id": "article-22",
+    "chunk_type": "article",
+    "chunk_number": "22",
+    "chunk_title": "Authorised representatives of providers of high-risk AI systems",
+    "question": "What is the duration for which the authorised representative must keep the contact details and related documents?",
+    "answer": "The authorised representative must keep the contact details and related documents at their disposal for a period of 10 years after the high-risk AI system has been placed on the market or put into service.",
+    "gold_chunk_ids": [
+      "article-22"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0035",
+    "chunk_id": "article-97",
+    "chunk_type": "article",
+    "chunk_number": "97",
+    "chunk_title": "Exercise of the delegation",
+    "question": "What is the duration of the initial delegation of power conferred on the Commission for Article 97?",
+    "answer": "The power to adopt delegated acts referred to in Article 97 shall be conferred on the Commission for a period of five years from 1 August 2024.",
+    "gold_chunk_ids": [
+      "article-97"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0036",
+    "chunk_id": "article-45",
+    "chunk_type": "article",
+    "chunk_number": "45",
+    "chunk_title": "Information obligations of notified bodies",
+    "question": "What types of information must notified bodies inform the notifying authority about?",
+    "answer": "Notified bodies shall inform the notifying authority about any Union technical documentation assessment certificates, supplements to those certificates, quality management system approvals issued in accordance with Annex VII requirements; refusal, restriction, suspension or withdrawal of a Union technical documentation assessment certificate or a quality management system approval; circumstances affecting the scope of or conditions for notification; and requests for information received from market surveillance authorities regarding conformity assessment activities.",
+    "gold_chunk_ids": [
+      "article-45"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0037",
+    "chunk_id": "article-79",
+    "chunk_type": "article",
+    "chunk_number": "79",
+    "chunk_title": "Procedure at national level for dealing with AI systems presenting a risk",
+    "question": "What does an AI system presenting a risk refer to according to Article 79?",
+    "answer": "An AI system presenting a risk is understood as a 'product presenting a risk' as defined in Article 3, point 19 of Regulation (EU) 2019/1020, in so far as it presents risks to the health or safety, or to fundamental rights, of persons.",
+    "gold_chunk_ids": [
+      "article-79"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0038",
+    "chunk_id": "article-21",
+    "chunk_type": "article",
+    "chunk_number": "21",
+    "chunk_title": "Cooperation with competent authorities",
+    "question": "What must providers of high-risk AI systems provide upon request?",
+    "answer": "Providers of high-risk AI systems must, upon a reasoned request by a competent authority, provide all the information and documentation necessary to demonstrate the conformity of the high-risk AI system with the requirements set out in Section 2, in a language which can be easily understood by the authority in one of the official languages of the institutions of the Union as indicated by the Member State concerned.",
+    "gold_chunk_ids": [
+      "article-21"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0039",
+    "chunk_id": "article-92",
+    "chunk_type": "article",
+    "chunk_number": "92",
+    "chunk_title": "Power to conduct evaluations",
+    "question": "What is required by providers of a general-purpose AI model when requested access?",
+    "answer": "Providers or their representatives are required to supply information requested for evaluations, with persons authorised to represent them by law or by their statutes providing the access on behalf of the provider if applicable.",
+    "gold_chunk_ids": [
+      "article-92"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0040",
+    "chunk_id": "article-75",
+    "chunk_type": "article",
+    "chunk_number": "75",
+    "chunk_title": "Mutual assistance, market surveillance and control of general-purpose AI systems",
+    "question": "What powers does the AI Office have to monitor and supervise compliance?",
+    "answer": "The AI Office has all the powers of a market surveillance authority provided for in this Section and Regulation (EU) 2019/1020, which includes monitoring and supervising compliance with obligations under this Regulation for an AI system based on a general-purpose AI model developed by the same provider.",
+    "gold_chunk_ids": [
+      "article-75"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0041",
+    "chunk_id": "article-104",
+    "chunk_type": "article",
+    "chunk_number": "104",
+    "chunk_title": "Amendment to Regulation (EU) No 168/2013",
+    "question": "What does the new regulation require for safety components within the meaning of Regulation (EU) 2024/1689?",
+    "answer": "The new regulation requires that when adopting delegated acts pursuant to Article 22(5) of Regulation (EU) No 168/2013 concerning Artificial Intelligence systems which are safety components within the meaning of Regulation (EU) 2024/1689, the requirements set out in Chapter III, Section 2, of that Regulation shall be taken into account.",
+    "gold_chunk_ids": [
+      "article-104"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0042",
+    "chunk_id": "article-50",
+    "chunk_type": "article",
+    "chunk_number": "50",
+    "chunk_title": "Transparency obligations for providers and deployers of certain AI systems",
+    "question": "What must providers ensure about the outputs of their AI systems?",
+    "answer": "Providers of AI systems, including general-purpose AI systems generating synthetic audio, image, video or text content, shall ensure that the outputs of the AI system are marked in a machine-readable format and detectable as artificially generated or manipulated.",
+    "gold_chunk_ids": [
+      "article-50"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0043",
+    "chunk_id": "article-14",
+    "chunk_type": "article",
+    "chunk_number": "14",
+    "chunk_title": "Human oversight",
+    "question": "What are the two types of measures identified by providers before placing high-risk AI systems on the market?",
+    "answer": "The two types of measures identified by providers before placing high-risk AI systems on the market are: (a) measures built into the system by the provider; and (b) measures implemented by the deployer.",
+    "gold_chunk_ids": [
+      "article-14"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0044",
+    "chunk_id": "article-47",
+    "chunk_type": "article",
+    "chunk_number": "47",
+    "chunk_title": "EU declaration of conformity",
+    "question": "What information must be contained in the EU declaration of conformity for high-risk AI systems?",
+    "answer": "The EU declaration of conformity shall contain the information set out in Annex V and shall be translated into a language that can be easily understood by the national competent authorities of the Member States in which the high-risk AI system is placed on the market or made available.",
+    "gold_chunk_ids": [
+      "article-47"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0045",
+    "chunk_id": "article-76",
+    "chunk_type": "article",
+    "chunk_number": "76",
+    "chunk_title": "Supervision of testing in real world conditions by market surveillance authorities",
+    "question": "What conditions must be met for testing in real world conditions to continue?",
+    "answer": "The conditions set out in Articles 60 and 61 must be met for testing in real world conditions to continue. If a market surveillance authority has grounds to consider that these conditions are not met, they may take decisions such as suspending or terminating the testing or requiring modifications of the testing plan.",
+    "gold_chunk_ids": [
+      "article-76"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0046",
+    "chunk_id": "article-24",
+    "chunk_type": "article",
+    "chunk_number": "24",
+    "chunk_title": "Obligations of distributors",
+    "question": "What must distributors ensure while a high-risk AI system is under their responsibility?",
+    "answer": "Distributors shall ensure that, while a high-risk AI system is under their responsibility, storage or transport conditions do not jeopardise the compliance of the system with the requirements set out in Section 2.",
+    "gold_chunk_ids": [
+      "article-24"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0047",
+    "chunk_id": "article-40",
+    "chunk_type": "article",
+    "chunk_number": "40",
+    "chunk_title": "Harmonised standards and standardisation deliverables",
+    "question": "What are the energy-efficient development standards required for high-risk AI systems and general-purpose AI models?",
+    "answer": "The Commission issues standardisation requests covering all requirements set out in Section 2 of this Chapter and, as applicable, obligations set out in Chapter V, Sections 2 and 3, of this Regulation. These requests include deliverables on reducing the energy consumption and other resource performance of high-risk AI systems during their lifecycle.",
+    "gold_chunk_ids": [
+      "article-40"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0048",
+    "chunk_id": "article-18",
+    "chunk_type": "article",
+    "chunk_number": "18",
+    "chunk_title": "Documentation keeping",
+    "question": "What must a provider keep for at least 10 years after an AI system is placed on the market?",
+    "answer": "The provider shall, for a period ending 10 years after the high-risk AI system has been placed on the market or put into service, keep at the disposal of the national competent authorities: (a) the technical documentation referred to in Article 11; (b) the documentation concerning the quality management system referred to in Article 17; (c) the documentation concerning the changes approved by notified bodies, where applicable; (d) the decisions and other documents issued by the notified bodies, where applicable; (e) the EU declaration of conformity referred to in Article 47.",
+    "gold_chunk_ids": [
+      "article-18"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0049",
+    "chunk_id": "article-53",
+    "chunk_type": "article",
+    "chunk_number": "53",
+    "chunk_title": "Obligations for providers of general-purpose AI models",
+    "question": "What must providers do for AI systems integrating their general-purpose AI models?",
+    "answer": "Providers of AI systems who intend to integrate the general-purpose AI model into their AI systems must provide information and documentation that enables them to have a good understanding of the capabilities and limitations of the general-purpose AI model and comply with their obligations pursuant to this Regulation. This includes making available information and documentation as set out in Annex XII.",
+    "gold_chunk_ids": [
+      "article-53"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0050",
+    "chunk_id": "article-4",
+    "chunk_type": "article",
+    "chunk_number": "4",
+    "chunk_title": "AI literacy",
+    "question": "What is considered when determining a sufficient level of AI literacy for staff?",
+    "answer": "The measures shall take into account their technical knowledge, experience, education and training and the context the AI systems are to be used in, and considering the persons or groups of persons on whom the AI systems are to be used.",
+    "gold_chunk_ids": [
+      "article-4"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0051",
+    "chunk_id": "article-48",
+    "chunk_type": "article",
+    "chunk_number": "48",
+    "chunk_title": "CE marking",
+    "question": "What is required for digital CE marking of high-risk AI systems provided digitally?",
+    "answer": "For high-risk AI systems provided digitally, a digital CE marking shall be used only if it can easily be accessed via the interface from which that system is accessed or via an easily accessible machine-readable code or other electronic means.",
+    "gold_chunk_ids": [
+      "article-48"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0052",
+    "chunk_id": "article-91",
+    "chunk_type": "article",
+    "chunk_number": "91",
+    "chunk_title": "Power to request documentation and information",
+    "question": "What fines can be provided for supplying incorrect, incomplete or misleading information in a request for information?",
+    "answer": "The provider of the general-purpose AI model concerned, or its representative, shall supply the information requested. In case of legal persons, companies or firms, or where the provider has no legal personality, the persons authorised to represent them by law or by their statutes, shall supply the information requested on behalf of the provider of the general-purpose AI model concerned. Lawyers duly authorised to act may supply information on behalf of their clients. The clients shall nevertheless remain fully responsible if the information supplied is incomplete, incorrect or misleading. Fines provided for in Article 101 for supplying incorrect, incomplete or misleading information can be stated in the request for information.",
+    "gold_chunk_ids": [
+      "article-91"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0053",
+    "chunk_id": "article-36",
+    "chunk_type": "article",
+    "chunk_number": "36",
+    "chunk_title": "Changes to notifications",
+    "question": "What happens if a notified body decides to cease its conformity assessment activities?",
+    "answer": "Where a notified body decides to cease its conformity assessment activities, it shall inform the notifying authority and the providers concerned as soon as possible. If the cessation is planned, it must be communicated at least one year before ceasing activities. Certificates of the notified body may remain valid for nine months after cessation, provided another notified body confirms in writing that they will assume responsibilities for high-risk AI systems covered by those certificates. The latter notified body shall complete a full assessment and issue new certificates within this period.",
+    "gold_chunk_ids": [
+      "article-36"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0054",
+    "chunk_id": "article-9",
+    "chunk_type": "article",
+    "chunk_number": "9",
+    "chunk_title": "Risk management system",
+    "question": "What are the four steps included in a risk management system for high-risk AI systems?",
+    "answer": "The risk management system includes: (a) the identification and analysis of known and reasonably foreseeable risks; (b) the estimation and evaluation of risks under conditions of reasonably foreseeable misuse; (c) the evaluation of other risks based on data from post-market monitoring; (d) adoption of appropriate measures to address identified risks.",
+    "gold_chunk_ids": [
+      "article-9"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0055",
+    "chunk_id": "article-26",
+    "chunk_type": "article",
+    "chunk_number": "26",
+    "chunk_title": "Obligations of deployers of high-risk AI systems",
+    "question": "What is required for input data in high-risk AI systems?",
+    "answer": "Deployers of high-risk AI systems shall ensure that input data is relevant and sufficiently representative in view of the intended purpose of the high-risk AI system.",
+    "gold_chunk_ids": [
+      "article-26"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0056",
+    "chunk_id": "article-7",
+    "chunk_type": "article",
+    "chunk_number": "7",
+    "chunk_title": "Amendments to Annex III",
+    "question": "What criteria must be considered by the Commission when assessing the risk of harm posed by high-risk AI systems?",
+    "answer": "The Commission shall take into account the following criteria: (a) the intended purpose of the AI system; (b) the extent to which an AI system has been used or is likely to be used; (c) the nature and amount of the data processed and used by the AI system, in particular whether special categories of personal data are processed; (d) the extent to which the AI system acts autonomously and the possibility for a human to override a decision or recommendations that may lead to potential harm; (e) the extent to which the use of an AI system has already caused harm to health and safety, has had an adverse impact on fundamental rights or has given rise to significant concerns in relation to the likelihood of such harm or adverse impact, as demonstrated, for example, by reports or documented allegations submitted to national competent authorities or by other reports, as appropriate; (f) the potential extent of such harm or such adverse impact, in particular in terms of its intensity and its ability to affect multiple persons or to disproportionately affect a particular group of persons; (g) the extent to which persons who are potentially harmed or suffer an adverse impact are dependent on the outcome produced with an AI system, in particular because for practical or legal reasons it is not reasonably possible to opt-out from that outcome;",
+    "gold_chunk_ids": [
+      "article-7"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0057",
+    "chunk_id": "article-86",
+    "chunk_type": "article",
+    "chunk_number": "86",
+    "chunk_title": "Right to explanation of individual decision-making",
+    "question": "What are the exceptions to the right of affected persons to explanations?",
+    "answer": "Exceptions to the right of affected persons to explanations include the use of AI systems where exceptions from or restrictions to the obligation under Article 86 follow from Union or national laws in compliance with Union law.",
+    "gold_chunk_ids": [
+      "article-86"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0058",
+    "chunk_id": "article-20",
+    "chunk_type": "article",
+    "chunk_number": "20",
+    "chunk_title": "Corrective actions and duty of information",
+    "question": "What must providers do if they find their high-risk AI system is not compliant?",
+    "answer": "Providers must immediately take necessary corrective actions to bring the system into conformity, withdraw it, disable it, or recall it as appropriate. They should also inform distributors of the high-risk AI system concerned and, where applicable, deployers, authorised representatives, importers, and market surveillance authorities.",
+    "gold_chunk_ids": [
+      "article-20"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0059",
+    "chunk_id": "article-42",
+    "chunk_type": "article",
+    "chunk_number": "42",
+    "chunk_title": "Presumption of conformity with certain requirements",
+    "question": "What type of AI systems are presumed to comply with specific geographical, behavioural, contextual or functional setting requirements?",
+    "answer": "High-risk AI systems that have been trained and tested on data reflecting the specific geographical, behavioral, contextual or functional setting within which they are intended to be used shall be presumed to comply with the relevant requirements laid down in Article 10(4).",
+    "gold_chunk_ids": [
+      "article-42"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0060",
+    "chunk_id": "recital-166",
+    "chunk_type": "recital",
+    "chunk_number": "166",
+    "chunk_title": null,
+    "question": "What does Regulation (EU) 2023/988 cover?",
+    "answer": "Regulation (EU) 2023/988 applies to AI systems related to products that are not high-risk and thus are not required to comply with the requirements set for high-risk AI systems, ensuring their safety when placed on the market or put into service.",
+    "gold_chunk_ids": [
+      "recital-166"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0061",
+    "chunk_id": "recital-97",
+    "chunk_type": "recital",
+    "chunk_number": "97",
+    "chunk_title": null,
+    "question": "What does the Regulation provide specific rules for?",
+    "answer": "The Regulation provides specific rules for general-purpose AI models and for general-purpose AI models that pose systemic risks, which should apply also when these models are integrated or form part of an AI system.",
+    "gold_chunk_ids": [
+      "recital-97"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0062",
+    "chunk_id": "recital-155",
+    "chunk_type": "recital",
+    "chunk_number": "155",
+    "chunk_title": null,
+    "question": "What type of incidents must providers report?",
+    "answer": "Providers should have a system in place to report to the relevant authorities any serious incidents resulting from the use of their AI systems, such as incident or malfunctioning leading to death or serious damage to health, serious and irreversible disruption of the management and operation of critical infrastructure, infringements of obligations under Union law intended to protect fundamental rights, or serious damage to property or the environment.",
+    "gold_chunk_ids": [
+      "recital-155"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0063",
+    "chunk_id": "recital-53",
+    "chunk_type": "recital",
+    "chunk_number": "53",
+    "chunk_title": null,
+    "question": "What type of tasks do AI systems fall under if they do not influence decision-making?",
+    "answer": "AI systems that do not materially influence the outcome of decision-making could include situations in which one or more of the following conditions are fulfilled: 1) an AI system that transforms unstructured data into structured data, an AI system that classifies incoming documents into categories, or an AI system that is used to detect duplicates among a large number of applications. Those tasks are of such narrow and limited nature that they pose only limited risks which are not increased through the use of an AI system in a context that is listed as a high-risk use in an annex to this Regulation.",
+    "gold_chunk_ids": [
+      "recital-53"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0064",
+    "chunk_id": "recital-56",
+    "chunk_type": "recital",
+    "chunk_number": "56",
+    "chunk_title": null,
+    "question": "What are the skills required for 'AI literacy' according to RECITAL 56?",
+    "answer": "'AI literacy' includes skills, knowledge, and understanding that allow providers, deployers, and affected persons to make an informed deployment of AI systems and gain awareness about the opportunities and risks of AI and possible harm it can cause.",
+    "gold_chunk_ids": [
+      "recital-56"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0065",
+    "chunk_id": "recital-19",
+    "chunk_type": "recital",
+    "chunk_number": "19",
+    "chunk_title": null,
+    "question": "What conditions can make a space publicly accessible according to RECITAL 19?",
+    "answer": "The conditions that can make a space publicly accessible according to RECITAL 19 include the purchase of a ticket or title of transport, prior registration, and having a certain age. A space should also be classified as being publicly accessible if access is subject to predetermined conditions such as these, regardless of potential capacity or security restrictions.",
+    "gold_chunk_ids": [
+      "recital-19"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0066",
+    "chunk_id": "recital-13",
+    "chunk_type": "recital",
+    "chunk_number": "13",
+    "chunk_title": null,
+    "question": "Who can be considered as a 'deployer' under this Regulation?",
+    "answer": "A 'deployer' referred to in this Regulation should be interpreted as any natural or legal person, including a public authority, agency or other body, using an AI system under its authority, except where the AI system is used in the course of a personal non-professional activity.",
+    "gold_chunk_ids": [
+      "recital-13"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0067",
+    "chunk_id": "recital-62",
+    "chunk_type": "recital",
+    "chunk_number": "62",
+    "chunk_title": null,
+    "question": "What is considered a high-risk AI system for influencing elections?",
+    "answer": "AI systems intended to be used to influence the outcome of an election or referendum or the voting behavior of natural persons in the exercise of their vote are classified as high-risk AI systems, with the exception of tools used to organize, optimize and structure political campaigns from an administrative and logistical point of view.",
+    "gold_chunk_ids": [
+      "recital-62"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0068",
+    "chunk_id": "recital-78",
+    "chunk_type": "recital",
+    "chunk_number": "78",
+    "chunk_title": null,
+    "question": "What type of products are exempt from reducing necessary level of assurance?",
+    "answer": "High-risk AI systems that fall within the scope of this Regulation and are also qualified as important and critical products with digital elements pursuant to a regulation of the European Parliament and of the Council on horizontal cybersecurity requirements for products with digital elements are exempt from reducing the necessary level of assurance.",
+    "gold_chunk_ids": [
+      "recital-78"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0069",
+    "chunk_id": "recital-22",
+    "chunk_type": "recital",
+    "chunk_number": "22",
+    "chunk_title": null,
+    "question": "What type of AI systems are exempt from applying to this Regulation?",
+    "answer": "Public authorities of a third country and international organizations when acting in the framework of cooperation or international agreements concluded at Union or national level for law enforcement and judicial cooperation with the Union or the Member States, provided that the relevant third country or international organization provides adequate safeguards with respect to the protection of fundamental rights and freedoms of individuals.",
+    "gold_chunk_ids": [
+      "recital-22"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0070",
+    "chunk_id": "recital-63",
+    "chunk_type": "recital",
+    "chunk_number": "63",
+    "chunk_title": null,
+    "question": "What does Article 63 state about the use of systems to detect emotional states?",
+    "answer": "Article 63 states that any use of systems like polygraphs or similar tools to detect the emotional state of natural persons should continue to occur solely in accordance with the applicable requirements resulting from the Charter and from the applicable acts of secondary Union law and national law.",
+    "gold_chunk_ids": [
+      "recital-63"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0071",
+    "chunk_id": "recital-28",
+    "chunk_type": "recital",
+    "chunk_number": "28",
+    "chunk_title": null,
+    "question": "What practices are prohibited due to their contradiction with Union values?",
+    "answer": "Such practices are particularly harmful and abusive and should be prohibited because they contradict Union values of respect for human dignity, freedom, equality, democracy and the rule of law and fundamental rights enshrined in the Charter, including the right to non-discrimination, to data protection and to privacy and the rights of the child.",
+    "gold_chunk_ids": [
+      "recital-28"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0072",
+    "chunk_id": "recital-103",
+    "chunk_type": "recital",
+    "chunk_number": "103",
+    "chunk_title": null,
+    "question": "What kind of channels can free and open-source AI components be provided through?",
+    "answer": "Free and open-source AI components can be provided through different channels, including their development on open repositories.",
+    "gold_chunk_ids": [
+      "recital-103"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0073",
+    "chunk_id": "recital-75",
+    "chunk_type": "recital",
+    "chunk_number": "75",
+    "chunk_title": null,
+    "question": "What measures should be taken to ensure robustness of high-risk AI systems?",
+    "answer": "Technical and organisational measures should be taken to ensure robustness of high-risk AI systems, for example by designing and developing appropriate technical solutions to prevent or minimise harmful or otherwise undesirable behaviour. Those technical solutions may include mechanisms enabling the system to safely interrupt its operation (fail-safe plans) in the presence of certain anomalies or when operation takes place outside certain predetermined boundaries.",
+    "gold_chunk_ids": [
+      "recital-75"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0074",
+    "chunk_id": "recital-122",
+    "chunk_type": "recital",
+    "chunk_number": "122",
+    "chunk_title": null,
+    "question": "What type of AI systems are presumed to comply with data governance requirements based on their training and testing?",
+    "answer": "High-risk AI systems that have been trained and tested on data reflecting the specific geographical, behavioural, contextual or functional setting within which they are intended to be used.",
+    "gold_chunk_ids": [
+      "recital-122"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0075",
+    "chunk_id": "recital-170",
+    "chunk_type": "recital",
+    "chunk_number": "170",
+    "chunk_title": null,
+    "question": "What remedy does Union law already provide?",
+    "answer": "Union and national law already provide effective remedies to natural and legal persons whose rights and freedoms are adversely affected by the use of AI systems.",
+    "gold_chunk_ids": [
+      "recital-170"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0076",
+    "chunk_id": "recital-98",
+    "chunk_type": "recital",
+    "chunk_number": "98",
+    "chunk_title": null,
+    "question": "What is the threshold for considering a model as displaying significant generality?",
+    "answer": "A model with at least a billion parameters trained with a large amount of data using self-supervision at scale should be considered to display significant generality and to competently perform a wide range of distinctive tasks.",
+    "gold_chunk_ids": [
+      "recital-98"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0077",
+    "chunk_id": "recital-44",
+    "chunk_type": "recital",
+    "chunk_number": "44",
+    "chunk_title": null,
+    "question": "What type of AI systems are exempt from the prohibition mentioned in RECITAL 44?",
+    "answer": "AI systems placed on the market strictly for medical or safety reasons, such as systems intended for therapeutic use, are exempt from the prohibition.",
+    "gold_chunk_ids": [
+      "recital-44"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0078",
+    "chunk_id": "recital-100",
+    "chunk_type": "recital",
+    "chunk_number": "100",
+    "chunk_title": null,
+    "question": "What is required for an AI system to be classified as a general-purpose AI system?",
+    "answer": "A general-purpose AI system should be considered when the system has the capability to serve a variety of purposes due to integration with a general-purpose AI model, and it can be used directly or integrated into other AI systems.",
+    "gold_chunk_ids": [
+      "recital-100"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0079",
+    "chunk_id": "recital-95",
+    "chunk_type": "recital",
+    "chunk_number": "95",
+    "chunk_title": null,
+    "question": "What are the conditions that post-remote biometric identification systems must be strictly necessary for?",
+    "answer": "Post-remote biometric identification systems should always be used in a way that is proportionate, legitimate and strictly necessary, and thus targeted, in terms of the individuals to be identified, the location, temporal scope and based on a closed data set of legally acquired video footage.",
+    "gold_chunk_ids": [
+      "recital-95"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0080",
+    "chunk_id": "recital-57",
+    "chunk_type": "recital",
+    "chunk_number": "57",
+    "chunk_title": null,
+    "question": "What type of AI systems are considered high-risk in employment?",
+    "answer": "AI systems used for recruitment, selection, promotion, termination of work-related contractual relationships, allocation of tasks based on individual behavior, personal traits or characteristics, and monitoring or evaluation of persons in such relationships are classified as high-risk.",
+    "gold_chunk_ids": [
+      "recital-57"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0081",
+    "chunk_id": "recital-72",
+    "chunk_type": "recital",
+    "chunk_number": "72",
+    "chunk_title": null,
+    "question": "What information must high-risk AI systems include in their accompanying instructions?",
+    "answer": "High-risk AI systems should be accompanied by appropriate information in the form of instructions of use. Such information should include the characteristics, capabilities and limitations of performance of the AI system, including possible known and foreseeable circumstances related to its use, such as deployer actions that may influence system behavior and performance, changes pre-determined and assessed for conformity by the provider, and relevant human oversight measures, including those facilitating interpretation of the outputs of the AI system.",
+    "gold_chunk_ids": [
+      "recital-72"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0082",
+    "chunk_id": "recital-173",
+    "chunk_type": "recital",
+    "chunk_number": "173",
+    "chunk_title": null,
+    "question": "What does Article 290 TFEU allow the Commission to do regarding high-risk AI systems?",
+    "answer": "The power to adopt acts in accordance with Article 290 TFEU allows the Commission to amend the conditions under which an AI system is not considered to be high-risk, list of high-risk AI systems, provisions regarding technical documentation, EU declaration of conformity, provisions establishing the high-risk AI systems for which a conformity assessment procedure based on quality management system and technical documentation should apply, threshold, benchmarks and indicators, including by supplementing those benchmarks and indicators in the rules for the classification of general-purpose AI models with systemic risk, criteria for the designation of general-purpose AI models with systemic risk, technical documentation for providers of general-purpose AI models, and transparency information for providers of general-purpose AI models.",
+    "gold_chunk_ids": [
+      "recital-173"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0083",
+    "chunk_id": "recital-20",
+    "chunk_type": "recital",
+    "chunk_number": "20",
+    "chunk_title": null,
+    "question": "What are some key areas of understanding that AI literacy aims to provide?",
+    "answer": "AI literacy aims to provide providers, deployers, and affected persons with the necessary notions to make informed decisions regarding AI systems, which may include understanding the correct application of technical elements during the AI system's development phase, measures to be applied during its use, suitable ways to interpret the AI system's output, and knowledge necessary for affected persons to understand how decisions taken with the assistance of AI will impact them.",
+    "gold_chunk_ids": [
+      "recital-20"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0084",
+    "chunk_id": "recital-163",
+    "chunk_type": "recital",
+    "chunk_number": "163",
+    "chunk_title": null,
+    "question": "What are the conditions under which the scientific panel may provide alerts to the AI Office?",
+    "answer": "The scientific panel should provide qualified alerts to the AI Office where they have reason to suspect that a general-purpose AI model poses a concrete and identifiable risk at Union level, or meets the criteria for classification as a general-purpose AI model with systemic risk. This requires them to have reasonable suspicion based on their expertise.",
+    "gold_chunk_ids": [
+      "recital-163"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0085",
+    "chunk_id": "recital-23",
+    "chunk_type": "recital",
+    "chunk_number": "23",
+    "chunk_title": null,
+    "question": "What constitutes a 'substantial modification' under the EU AI Act?",
+    "answer": "'Substantial modification' refers to any change to an AI system after its market entry that was not initially anticipated or planned by the provider, and this change impacts the compliance with Chapter III, Section 2 requirements or alters the intended purpose of the AI system.",
+    "gold_chunk_ids": [
+      "recital-23"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0086",
+    "chunk_id": "recital-47",
+    "chunk_type": "recital",
+    "chunk_number": "47",
+    "chunk_title": null,
+    "question": "What is required of AI systems that could affect health and safety?",
+    "answer": "AI systems that could have an adverse impact on the health and safety of persons must ensure that their safety risks are prevented and mitigated, especially in complex environments such as manufacturing or personal assistance and care. In the health sector, where stakes for life and health are particularly high, AI systems should be reliable and accurate.",
+    "gold_chunk_ids": [
+      "recital-47"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0087",
+    "chunk_id": "recital-143",
+    "chunk_type": "recital",
+    "chunk_number": "143",
+    "chunk_title": null,
+    "question": "What kind of access do SMEs have to AI regulatory sandboxes?",
+    "answer": "Member States should provide SMEs that have a registered office or branch in the Union with priority access to the AI regulatory sandboxes provided they fulfill the eligibility conditions and selection criteria, without precluding other providers from accessing the sandboxes if they also meet these conditions.",
+    "gold_chunk_ids": [
+      "recital-143"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0088",
+    "chunk_id": "recital-66",
+    "chunk_type": "recital",
+    "chunk_number": "66",
+    "chunk_title": null,
+    "question": "What is required regarding transparency and information provision in high-risk AI systems?",
+    "answer": "Transparency and the provision of information to deployers are required for high-risk AI systems as per RECITAL 66.",
+    "gold_chunk_ids": [
+      "recital-66"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0089",
+    "chunk_id": "annex-III",
+    "chunk_type": "annex",
+    "chunk_number": "III",
+    "chunk_title": "High-risk AI systems referred to in Article 6(2)",
+    "question": "What is not considered a high-risk AI system under Article 6(2)?",
+    "answer": "AI systems intended to be used for biometric verification with the sole purpose of confirming that a specific natural person is the person they claim to be.",
+    "gold_chunk_ids": [
+      "annex-III"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0090",
+    "chunk_id": "annex-VIII",
+    "chunk_type": "annex",
+    "chunk_number": "VIII",
+    "chunk_title": "Information to be submitted upon the registration of high-risk AI systems in accordance with Article 49",
+    "question": "What is the minimum status of an AI system that must be provided?",
+    "answer": "The status of the AI system (on the market, or in service; no longer placed on the market/in service, recalled) must be provided.",
+    "gold_chunk_ids": [
+      "annex-VIII"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0091",
+    "chunk_id": "annex-VII",
+    "chunk_type": "annex",
+    "chunk_number": "VII",
+    "chunk_title": "Conformity based on an assessment of the quality management system and an assessment of the technical documentation",
+    "question": "What must a provider include in their application for a quality management system?",
+    "answer": "The application should include: (a) the name and address of the provider, if applicable, the name and address of an authorised representative; (b) the list of AI systems covered under the same quality management system; (c) the technical documentation for each AI system covered under the same quality management system; (d) the documentation concerning the quality management system which shall cover all the aspects listed under Article 17; (e) a description of the procedures in place to ensure that the quality management system remains adequate and effective; (f) a written declaration that the same application has not been lodged with any other notified body.",
+    "gold_chunk_ids": [
+      "annex-VII"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0092",
+    "chunk_id": "annex-V",
+    "chunk_type": "annex",
+    "chunk_number": "V",
+    "chunk_title": "EU declaration of conformity",
+    "question": "What must be stated in the EU declaration of conformity regarding personal data processing?",
+    "answer": "The EU declaration of conformity shall contain a statement that the AI system complies with Regulations (EU) 2016/679 and (EU) 2018/1725 and Directive (EU) 2016/680 where an AI system involves the processing of personal data.",
+    "gold_chunk_ids": [
+      "annex-V"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0093",
+    "chunk_id": "annex-IX",
+    "chunk_type": "annex",
+    "chunk_number": "IX",
+    "chunk_title": "Information to be submitted upon the registration of high-risk AI systems listed in Annex III in relation to testing in real world conditions in accordance with Article 60",
+    "question": "What is required to be provided regarding the AI system's intended purpose?",
+    "answer": "A brief description of the AI system, its intended purpose, and other information necessary for the identification of the system shall be provided.",
+    "gold_chunk_ids": [
+      "annex-IX"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0094",
+    "chunk_id": "annex-IV",
+    "chunk_type": "annex",
+    "chunk_number": "IV",
+    "chunk_title": "Technical documentation referred to in Article 11(1)",
+    "question": "What must a detailed description of the elements of the AI system include?",
+    "answer": "A detailed description of the elements of the AI system should include: (a) the methods and steps performed for the development of the AI system, including, where relevant, recourse to pre-trained systems or tools provided by third parties and how those were used, integrated or modified by the provider; (b) the design specifications of the system, namely the general logic of the AI system and of the algorithms; the key design choices including the rationale and assumptions made, including with regard to persons or groups of persons in respect of who, the system is intended to be used; the main classification choices; what the system is designed to optimise for, and the relevance of the different parameters.",
+    "gold_chunk_ids": [
+      "annex-IV"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0095",
+    "chunk_id": "annex-VI",
+    "chunk_type": "annex",
+    "chunk_number": "VI",
+    "chunk_title": "Conformity assessment procedure based on internal control",
+    "question": "What does a provider need to verify about their quality management system?",
+    "answer": "The provider needs to verify that the established quality management system is in compliance with the requirements of Article 17.",
+    "gold_chunk_ids": [
+      "annex-VI"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0096",
+    "chunk_id": "annex-XIII",
+    "chunk_type": "annex",
+    "chunk_number": "XIII",
+    "chunk_title": "Criteria for the designation of general-purpose AI models with systemic risk referred to in Article 51",
+    "question": "What is considered as the state of the art threshold for determining high-impact capabilities for multi-modality models?",
+    "answer": "The specific type of inputs and outputs, such as text to image or multi-modality, are considered in determining the state of the art thresholds for multi-modality models.",
+    "gold_chunk_ids": [
+      "annex-XIII"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0097",
+    "chunk_id": "annex-I",
+    "chunk_type": "annex",
+    "chunk_number": "I",
+    "chunk_title": "List of Union harmonisation legislation",
+    "question": "What is the earliest date mentioned for the harmonisation directives in ANNEX I?",
+    "answer": "The earliest date mentioned for the harmonisation directives in ANNEX I is 9.6.2006, which is the publication date of Directive 2006/42/EC.",
+    "gold_chunk_ids": [
+      "annex-I"
+    ],
+    "verified": null
+  },
+  {
+    "id": "qa-0098",
+    "chunk_id": "annex-II",
+    "chunk_type": "annex",
+    "chunk_number": "II",
+    "chunk_title": "List of criminal offences referred to in Article 5(1), first subparagraph, point (h)(iii)",
+    "question": "What are some examples of crimes included in Article 5(1), first subparagraph, point (h)(iii)?",
+    "answer": "The list includes terrorism, trafficking in human beings, sexual exploitation of children and child pornography, illicit trafficking in narcotic drugs or psychotropic substances, illicit trafficking in weapons, munitions or explosives, murder, grievous bodily injury, illicit trade in human organs or tissue, illicit trafficking in nuclear or radioactive materials, kidnapping, illegal restraint or hostage-taking, crimes within the jurisdiction of the International Criminal Court, unlawful seizure of aircraft or ships, rape, environmental crime, organised or armed robbery, sabotage, and participation in a criminal organization involved in one or more of the offences listed above.",
+    "gold_chunk_ids": [
+      "annex-II"
+    ],
+    "verified": null
+  }
+]

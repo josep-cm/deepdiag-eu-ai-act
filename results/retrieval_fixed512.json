@@ -1,0 +1,2736 @@
+{
+  "summary": {
+    "tag": "fixed512",
+    "n_eval": 98,
+    "model": "BAAI/bge-small-en-v1.5",
+    "corpus_size": 472,
+    "window_tokens": 512,
+    "overlap_tokens": 128,
+    "avg_gold_windows": 1.49,
+    "metrics": {
+      "recall@1": 0.30952380952380953,
+      "recall@3": 0.5054421768707483,
+      "recall@5": 0.6151360544217688,
+      "recall@10": 0.7442176870748298,
+      "precision@1": 0.3469387755102041,
+      "precision@3": 0.2040816326530612,
+      "precision@5": 0.15102040816326512,
+      "precision@10": 0.09693877551020394,
+      "hit_rate@1": 0.3469387755102041,
+      "hit_rate@3": 0.5612244897959183,
+      "hit_rate@5": 0.6938775510204082,
+      "hit_rate@10": 0.826530612244898,
+      "mrr": 0.4926830255911889,
+      "map": 0.4580164804016845
+    },
+    "failure_decomposition_k5": {
+      "k": 5,
+      "total": 98,
+      "gold_in_top_k": 68,
+      "retrieval_bound": 30,
+      "gold_in_top_k_rate": 0.6938775510204082,
+      "retrieval_bound_rate": 0.30612244897959184
+    },
+    "latency_ms": {
+      "p50": 12.03,
+      "p95": 43.9,
+      "mean": 18.6
+    }
+  },
+  "per_query": [
+    {
+      "id": "qa-0001",
+      "chunk_id": "article-84",
+      "chunk_type": "article",
+      "question": "What are the tasks that Union AI testing support structures can perform?",
+      "gold": [
+        "fixed-article-84-0"
+      ],
+      "gold_structural": [
+        "article-84"
+      ],
+      "retrieved": [
+        "fixed-article-84-0",
+        "fixed-recital-152-0",
+        "fixed-recital-148-0",
+        "fixed-recital-162-0",
+        "fixed-recital-124-0",
+        "fixed-recital-161-0",
+        "fixed-recital-163-0",
+        "fixed-recital-108-0",
+        "fixed-article-64-0",
+        "fixed-recital-8-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 166.18,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0002",
+      "chunk_id": "article-16",
+      "chunk_type": "article",
+      "question": "What must providers indicate on their high-risk AI systems?",
+      "gold": [
+        "fixed-article-16-0"
+      ],
+      "gold_structural": [
+        "article-16"
+      ],
+      "retrieved": [
+        "fixed-recital-72-0",
+        "fixed-recital-155-0",
+        "fixed-recital-66-0",
+        "fixed-recital-71-0",
+        "fixed-recital-125-0",
+        "fixed-article-80-0",
+        "fixed-recital-85-0",
+        "fixed-article-16-0",
+        "fixed-recital-91-0",
+        "fixed-recital-84-0"
+      ],
+      "gold_rank": 8,
+      "latency_ms": 41.54,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0003",
+      "chunk_id": "article-5",
+      "chunk_type": "article",
+      "question": "What does Article 5 prohibit in terms of subliminal techniques?",
+      "gold": [
+        "fixed-article-5-0",
+        "fixed-article-5-1",
+        "fixed-article-5-5",
+        "fixed-article-5-2",
+        "fixed-article-5-3",
+        "fixed-article-5-4"
+      ],
+      "gold_structural": [
+        "article-5"
+      ],
+      "retrieved": [
+        "fixed-recital-29-1",
+        "fixed-article-5-0",
+        "fixed-article-5-1",
+        "fixed-recital-176-0",
+        "fixed-article-14-1",
+        "fixed-annex-II-0",
+        "fixed-recital-29-0",
+        "fixed-article-103-0",
+        "fixed-article-2-2",
+        "fixed-article-5-5"
+      ],
+      "gold_rank": 2,
+      "latency_ms": 11.6,
+      "n_gold_windows": 6
+    },
+    {
+      "id": "qa-0004",
+      "chunk_id": "article-100",
+      "chunk_type": "article",
+      "question": "What is the maximum fine for non-compliance with Article 5?",
+      "gold": [
+        "fixed-article-100-0",
+        "fixed-article-100-1"
+      ],
+      "gold_structural": [
+        "article-100"
+      ],
+      "retrieved": [
+        "fixed-article-99-1",
+        "fixed-article-101-0",
+        "fixed-recital-169-0",
+        "fixed-recital-168-0",
+        "fixed-article-99-0",
+        "fixed-article-83-0",
+        "fixed-article-100-1",
+        "fixed-article-79-2",
+        "fixed-article-100-0",
+        "fixed-article-81-0"
+      ],
+      "gold_rank": 7,
+      "latency_ms": 11.59,
+      "n_gold_windows": 2
+    },
+    {
+      "id": "qa-0005",
+      "chunk_id": "article-37",
+      "chunk_type": "article",
+      "question": "What information must a notifying authority provide to the Commission?",
+      "gold": [
+        "fixed-article-37-0"
+      ],
+      "gold_structural": [
+        "article-37"
+      ],
+      "retrieved": [
+        "fixed-recital-19-0",
+        "fixed-article-30-0",
+        "fixed-article-28-0",
+        "fixed-article-37-0",
+        "fixed-recital-126-0",
+        "fixed-recital-36-0",
+        "fixed-article-36-1",
+        "fixed-article-38-0",
+        "fixed-article-36-0",
+        "fixed-article-45-0"
+      ],
+      "gold_rank": 4,
+      "latency_ms": 11.38,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0006",
+      "chunk_id": "article-33",
+      "chunk_type": "article",
+      "question": "What must notified bodies do regarding their subsidiaries?",
+      "gold": [
+        "fixed-article-33-0"
+      ],
+      "gold_structural": [
+        "article-33"
+      ],
+      "retrieved": [
+        "fixed-article-33-0",
+        "fixed-article-31-0",
+        "fixed-article-45-0",
+        "fixed-article-31-1",
+        "fixed-recital-126-0",
+        "fixed-article-34-0",
+        "fixed-article-38-0",
+        "fixed-article-28-0",
+        "fixed-article-37-0",
+        "fixed-recital-22-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 37.52,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0007",
+      "chunk_id": "article-30",
+      "chunk_type": "article",
+      "question": "What must a notifying authority provide for non-accredited conformity assessment bodies?",
+      "gold": [
+        "fixed-article-30-0"
+      ],
+      "gold_structural": [
+        "article-30"
+      ],
+      "retrieved": [
+        "fixed-recital-19-0",
+        "fixed-article-28-0",
+        "fixed-article-29-0",
+        "fixed-article-30-0",
+        "fixed-article-31-0",
+        "fixed-recital-126-0",
+        "fixed-annex-VII-1",
+        "fixed-article-31-1",
+        "fixed-annex-VII-3",
+        "fixed-article-45-0"
+      ],
+      "gold_rank": 4,
+      "latency_ms": 46.62,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0008",
+      "chunk_id": "article-19",
+      "chunk_type": "article",
+      "question": "What is the minimum duration for keeping automatically generated logs?",
+      "gold": [
+        "fixed-article-19-0"
+      ],
+      "gold_structural": [
+        "article-19"
+      ],
+      "retrieved": [
+        "fixed-article-19-0",
+        "fixed-article-12-0",
+        "fixed-article-26-1",
+        "fixed-article-18-0",
+        "fixed-recital-71-0",
+        "fixed-article-59-1",
+        "fixed-article-36-2",
+        "fixed-recital-35-0",
+        "fixed-article-5-3",
+        "fixed-recital-136-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 46.69,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0009",
+      "chunk_id": "article-110",
+      "chunk_type": "article",
+      "question": "What is the full name of the regulation added to Annex I?",
+      "gold": [
+        "fixed-article-110-0"
+      ],
+      "gold_structural": [
+        "article-110"
+      ],
+      "retrieved": [
+        "fixed-article-110-0",
+        "fixed-article-43-2",
+        "fixed-article-112-0",
+        "fixed-article-7-0",
+        "fixed-annex-X-0",
+        "fixed-article-112-2",
+        "fixed-article-109-0",
+        "fixed-article-107-0",
+        "fixed-article-1-0",
+        "fixed-recital-4-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 12.78,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0010",
+      "chunk_id": "article-15",
+      "chunk_type": "article",
+      "question": "What measures are required for high-risk AI systems to remain resilient against unauthorised third parties?",
+      "gold": [
+        "fixed-article-15-0"
+      ],
+      "gold_structural": [
+        "article-15"
+      ],
+      "retrieved": [
+        "fixed-recital-66-0",
+        "fixed-recital-73-0",
+        "fixed-recital-75-0",
+        "fixed-article-15-0",
+        "fixed-recital-77-0",
+        "fixed-recital-26-0",
+        "fixed-recital-125-0",
+        "fixed-recital-7-0",
+        "fixed-recital-76-0",
+        "fixed-recital-165-0"
+      ],
+      "gold_rank": 4,
+      "latency_ms": 41.45,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0011",
+      "chunk_id": "article-90",
+      "chunk_type": "article",
+      "question": "What must a qualified alert include according to Article 90 of the EU AI Act?",
+      "gold": [
+        "fixed-article-90-0"
+      ],
+      "gold_structural": [
+        "article-90"
+      ],
+      "retrieved": [
+        "fixed-article-105-0",
+        "fixed-article-90-0",
+        "fixed-recital-3-0",
+        "fixed-article-31-1",
+        "fixed-recital-1-0",
+        "fixed-recital-4-0",
+        "fixed-article-108-1",
+        "fixed-recital-2-0",
+        "fixed-article-109-0",
+        "fixed-recital-6-0"
+      ],
+      "gold_rank": 2,
+      "latency_ms": 11.76,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0012",
+      "chunk_id": "article-105",
+      "chunk_type": "article",
+      "question": "What does the Commission need to consider for safety components under Article 8?",
+      "gold": [
+        "fixed-article-105-0"
+      ],
+      "gold_structural": [
+        "article-105"
+      ],
+      "retrieved": [
+        "fixed-article-105-0",
+        "fixed-recital-49-0",
+        "fixed-recital-2-0",
+        "fixed-recital-3-0",
+        "fixed-recital-4-0",
+        "fixed-article-108-1",
+        "fixed-recital-6-0",
+        "fixed-recital-5-0",
+        "fixed-article-107-0",
+        "fixed-recital-147-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 43.9,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0013",
+      "chunk_id": "article-72",
+      "chunk_type": "article",
+      "question": "What is required for a post-market monitoring system to be established?",
+      "gold": [
+        "fixed-article-72-0"
+      ],
+      "gold_structural": [
+        "article-72"
+      ],
+      "retrieved": [
+        "fixed-recital-25-0",
+        "fixed-article-72-0",
+        "fixed-recital-155-0",
+        "fixed-recital-71-0",
+        "fixed-recital-149-0",
+        "fixed-recital-156-0",
+        "fixed-article-74-1",
+        "fixed-recital-36-0",
+        "fixed-recital-158-0",
+        "fixed-recital-130-0"
+      ],
+      "gold_rank": 2,
+      "latency_ms": 12.1,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0014",
+      "chunk_id": "article-13",
+      "chunk_type": "article",
+      "question": "What must high-risk AI systems include in their instructions for use?",
+      "gold": [
+        "fixed-article-13-1",
+        "fixed-article-13-0"
+      ],
+      "gold_structural": [
+        "article-13"
+      ],
+      "retrieved": [
+        "fixed-recital-66-0",
+        "fixed-recital-72-0",
+        "fixed-recital-26-0",
+        "fixed-recital-52-0",
+        "fixed-article-6-0",
+        "fixed-recital-91-0",
+        "fixed-recital-73-0",
+        "fixed-recital-71-0",
+        "fixed-article-15-0",
+        "fixed-article-14-0"
+      ],
+      "gold_rank": null,
+      "latency_ms": 10.93,
+      "n_gold_windows": 2
+    },
+    {
+      "id": "qa-0015",
+      "chunk_id": "article-78",
+      "chunk_type": "article",
+      "question": "What information is exempt from confidentiality requirements under Article 78?",
+      "gold": [
+        "fixed-article-78-0",
+        "fixed-article-78-1"
+      ],
+      "gold_structural": [
+        "article-78"
+      ],
+      "retrieved": [
+        "fixed-article-78-1",
+        "fixed-article-78-0",
+        "fixed-article-5-5",
+        "fixed-recital-92-0",
+        "fixed-article-31-1",
+        "fixed-recital-167-0",
+        "fixed-recital-95-0",
+        "fixed-article-26-3",
+        "fixed-recital-172-0",
+        "fixed-annex-VIII-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 11.74,
+      "n_gold_windows": 2
+    },
+    {
+      "id": "qa-0016",
+      "chunk_id": "article-56",
+      "chunk_type": "article",
+      "question": "What are the issues covered by the codes of practice according to Article 56?",
+      "gold": [
+        "fixed-article-56-1",
+        "fixed-article-56-0"
+      ],
+      "gold_structural": [
+        "article-56"
+      ],
+      "retrieved": [
+        "fixed-article-56-0",
+        "fixed-recital-117-0",
+        "fixed-article-56-1",
+        "fixed-recital-116-0",
+        "fixed-recital-4-0",
+        "fixed-recital-2-0",
+        "fixed-article-5-5",
+        "fixed-recital-3-0",
+        "fixed-article-112-2",
+        "fixed-article-53-1"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 38.98,
+      "n_gold_windows": 2
+    },
+    {
+      "id": "qa-0017",
+      "chunk_id": "article-6",
+      "chunk_type": "article",
+      "question": "What conditions must an AI system meet to be classified as high-risk according to Article 6?",
+      "gold": [
+        "fixed-article-6-0",
+        "fixed-article-6-1"
+      ],
+      "gold_structural": [
+        "article-6"
+      ],
+      "retrieved": [
+        "fixed-recital-52-0",
+        "fixed-recital-66-0",
+        "fixed-article-6-0",
+        "fixed-article-80-0",
+        "fixed-recital-51-0",
+        "fixed-recital-166-0",
+        "fixed-recital-93-0",
+        "fixed-recital-77-0",
+        "fixed-article-6-1",
+        "fixed-recital-26-0"
+      ],
+      "gold_rank": 3,
+      "latency_ms": 36.05,
+      "n_gold_windows": 2
+    },
+    {
+      "id": "qa-0018",
+      "chunk_id": "article-111",
+      "chunk_type": "article",
+      "question": "What are the compliance deadlines for high-risk AI systems?",
+      "gold": [
+        "fixed-article-111-0"
+      ],
+      "gold_structural": [
+        "article-111"
+      ],
+      "retrieved": [
+        "fixed-recital-66-0",
+        "fixed-recital-26-0",
+        "fixed-recital-71-0",
+        "fixed-recital-177-0",
+        "fixed-recital-72-0",
+        "fixed-recital-179-0",
+        "fixed-recital-125-0",
+        "fixed-recital-77-0",
+        "fixed-recital-166-0",
+        "fixed-article-111-0"
+      ],
+      "gold_rank": 10,
+      "latency_ms": 11.46,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0019",
+      "chunk_id": "article-102",
+      "chunk_type": "article",
+      "question": "What detailed measures are required for security equipment related to AI systems?",
+      "gold": [
+        "fixed-article-102-0"
+      ],
+      "gold_structural": [
+        "article-102"
+      ],
+      "retrieved": [
+        "fixed-recital-91-0",
+        "fixed-recital-66-0",
+        "fixed-recital-72-0",
+        "fixed-article-15-0",
+        "fixed-recital-73-0",
+        "fixed-recital-74-0",
+        "fixed-recital-76-0",
+        "fixed-recital-26-0",
+        "fixed-recital-71-0",
+        "fixed-recital-77-0"
+      ],
+      "gold_rank": null,
+      "latency_ms": 12.17,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0020",
+      "chunk_id": "article-29",
+      "chunk_type": "article",
+      "question": "What types of AI systems can a conformity assessment body claim competence for?",
+      "gold": [
+        "fixed-article-29-0"
+      ],
+      "gold_structural": [
+        "article-29"
+      ],
+      "retrieved": [
+        "fixed-recital-125-0",
+        "fixed-annex-VII-2",
+        "fixed-article-3-2",
+        "fixed-recital-128-0",
+        "fixed-recital-124-0",
+        "fixed-annex-VII-0",
+        "fixed-annex-VI-0",
+        "fixed-recital-123-0",
+        "fixed-annex-VII-1",
+        "fixed-recital-27-0"
+      ],
+      "gold_rank": null,
+      "latency_ms": 11.69,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0021",
+      "chunk_id": "article-31",
+      "chunk_type": "article",
+      "question": "What are the requirements for notified bodies in terms of organisational structure?",
+      "gold": [
+        "fixed-article-31-1",
+        "fixed-article-31-0"
+      ],
+      "gold_structural": [
+        "article-31"
+      ],
+      "retrieved": [
+        "fixed-article-31-0",
+        "fixed-article-31-1",
+        "fixed-article-34-0",
+        "fixed-article-45-0",
+        "fixed-recital-126-0",
+        "fixed-article-38-0",
+        "fixed-article-33-0",
+        "fixed-article-37-0",
+        "fixed-recital-22-0",
+        "fixed-article-29-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 11.09,
+      "n_gold_windows": 2
+    },
+    {
+      "id": "qa-0022",
+      "chunk_id": "article-67",
+      "chunk_type": "article",
+      "question": "What is the maximum extension period for the term of office of the members of the advisory forum?",
+      "gold": [
+        "fixed-article-67-0"
+      ],
+      "gold_structural": [
+        "article-67"
+      ],
+      "retrieved": [
+        "fixed-article-67-0",
+        "fixed-recital-150-0",
+        "fixed-recital-37-0",
+        "fixed-article-97-1",
+        "fixed-article-97-0",
+        "fixed-article-113-0",
+        "fixed-article-65-1",
+        "fixed-article-36-2",
+        "fixed-article-110-0",
+        "fixed-article-70-1"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 11.2,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0023",
+      "chunk_id": "article-80",
+      "chunk_type": "article",
+      "question": "What is the maximum time frame for a market surveillance authority to require corrective action from an AI system provider?",
+      "gold": [
+        "fixed-article-80-0"
+      ],
+      "gold_structural": [
+        "article-80"
+      ],
+      "retrieved": [
+        "fixed-article-75-0",
+        "fixed-article-79-2",
+        "fixed-article-80-0",
+        "fixed-recital-130-0",
+        "fixed-recital-155-0",
+        "fixed-recital-161-0",
+        "fixed-article-79-1",
+        "fixed-article-82-0",
+        "fixed-recital-3-0",
+        "fixed-article-111-0"
+      ],
+      "gold_rank": 3,
+      "latency_ms": 37.66,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0024",
+      "chunk_id": "article-95",
+      "chunk_type": "article",
+      "question": "What are the key performance indicators for codes of conduct concerning the voluntary application of specific requirements to all AI systems?",
+      "gold": [
+        "fixed-article-95-0"
+      ],
+      "gold_structural": [
+        "article-95"
+      ],
+      "retrieved": [
+        "fixed-article-95-0",
+        "fixed-recital-165-0",
+        "fixed-recital-20-0",
+        "fixed-recital-18-0",
+        "fixed-recital-74-0",
+        "fixed-article-3-2",
+        "fixed-recital-27-1",
+        "fixed-recital-66-0",
+        "fixed-recital-174-0",
+        "fixed-recital-27-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 12.31,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0025",
+      "chunk_id": "article-74",
+      "chunk_type": "article",
+      "question": "What does 'any reference to a product under Regulation (EU) 2019/1020' include?",
+      "gold": [
+        "fixed-article-74-3",
+        "fixed-article-74-1",
+        "fixed-article-74-0",
+        "fixed-article-74-2"
+      ],
+      "gold_structural": [
+        "article-74"
+      ],
+      "retrieved": [
+        "fixed-article-109-0",
+        "fixed-article-108-1",
+        "fixed-article-105-0",
+        "fixed-article-107-0",
+        "fixed-article-74-0",
+        "fixed-article-108-0",
+        "fixed-recital-3-0",
+        "fixed-recital-1-0",
+        "fixed-article-102-0",
+        "fixed-recital-26-0"
+      ],
+      "gold_rank": 5,
+      "latency_ms": 42.09,
+      "n_gold_windows": 4
+    },
+    {
+      "id": "qa-0026",
+      "chunk_id": "article-27",
+      "chunk_type": "article",
+      "question": "What must a deployer describe regarding the categories of natural persons and groups affected by the use of a high-risk AI system?",
+      "gold": [
+        "fixed-article-27-1",
+        "fixed-article-27-0"
+      ],
+      "gold_structural": [
+        "article-27"
+      ],
+      "retrieved": [
+        "fixed-recital-93-0",
+        "fixed-recital-91-0",
+        "fixed-recital-73-0",
+        "fixed-recital-72-0",
+        "fixed-recital-13-0",
+        "fixed-article-26-0",
+        "fixed-recital-132-0",
+        "fixed-recital-96-1",
+        "fixed-recital-4-0",
+        "fixed-article-27-0"
+      ],
+      "gold_rank": 10,
+      "latency_ms": 34.53,
+      "n_gold_windows": 2
+    },
+    {
+      "id": "qa-0027",
+      "chunk_id": "article-101",
+      "chunk_type": "article",
+      "question": "What is the maximum fine a provider can receive under Article 101?",
+      "gold": [
+        "fixed-article-101-0"
+      ],
+      "gold_structural": [
+        "article-101"
+      ],
+      "retrieved": [
+        "fixed-article-99-1",
+        "fixed-article-101-0",
+        "fixed-article-100-1",
+        "fixed-article-99-0",
+        "fixed-recital-168-0",
+        "fixed-recital-169-0",
+        "fixed-article-100-0",
+        "fixed-article-99-2",
+        "fixed-article-22-1",
+        "fixed-article-63-0"
+      ],
+      "gold_rank": 2,
+      "latency_ms": 11.27,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0028",
+      "chunk_id": "article-55",
+      "chunk_type": "article",
+      "question": "What must providers do regarding adversarial testing of their general-purpose AI models?",
+      "gold": [
+        "fixed-article-55-0"
+      ],
+      "gold_structural": [
+        "article-55"
+      ],
+      "retrieved": [
+        "fixed-recital-114-0",
+        "fixed-recital-162-0",
+        "fixed-recital-115-0",
+        "fixed-recital-141-0",
+        "fixed-recital-164-0",
+        "fixed-article-53-0",
+        "fixed-article-92-0",
+        "fixed-recital-163-0",
+        "fixed-article-55-0",
+        "fixed-recital-111-0"
+      ],
+      "gold_rank": 9,
+      "latency_ms": 38.86,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0029",
+      "chunk_id": "article-107",
+      "chunk_type": "article",
+      "question": "What does the new regulation require for safety components within the meaning of Regulation (EU) 2024/1689?",
+      "gold": [
+        "fixed-article-107-0"
+      ],
+      "gold_structural": [
+        "article-107"
+      ],
+      "retrieved": [
+        "fixed-article-109-0",
+        "fixed-article-108-1",
+        "fixed-recital-3-0",
+        "fixed-article-105-0",
+        "fixed-recital-2-0",
+        "fixed-article-107-0",
+        "fixed-recital-5-0",
+        "fixed-recital-1-0",
+        "fixed-recital-6-0",
+        "fixed-article-103-0"
+      ],
+      "gold_rank": 6,
+      "latency_ms": 12.26,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0030",
+      "chunk_id": "article-59",
+      "chunk_type": "article",
+      "question": "What is required for AI systems to be developed in the public interest?",
+      "gold": [
+        "fixed-article-59-0",
+        "fixed-article-59-1"
+      ],
+      "gold_structural": [
+        "article-59"
+      ],
+      "retrieved": [
+        "fixed-recital-165-0",
+        "fixed-recital-66-0",
+        "fixed-recital-72-0",
+        "fixed-article-59-0",
+        "fixed-recital-7-0",
+        "fixed-recital-6-0",
+        "fixed-recital-73-0",
+        "fixed-recital-139-0",
+        "fixed-recital-138-0",
+        "fixed-recital-26-0"
+      ],
+      "gold_rank": 4,
+      "latency_ms": 11.98,
+      "n_gold_windows": 2
+    },
+    {
+      "id": "qa-0031",
+      "chunk_id": "article-99",
+      "chunk_type": "article",
+      "question": "What is the maximum fine for non-compliance with the AI practices prohibition?",
+      "gold": [
+        "fixed-article-99-0",
+        "fixed-article-99-1",
+        "fixed-article-99-2"
+      ],
+      "gold_structural": [
+        "article-99"
+      ],
+      "retrieved": [
+        "fixed-article-101-0",
+        "fixed-recital-169-0",
+        "fixed-article-5-1",
+        "fixed-article-5-0",
+        "fixed-recital-179-0",
+        "fixed-article-5-5",
+        "fixed-recital-170-0",
+        "fixed-recital-29-1",
+        "fixed-recital-164-0",
+        "fixed-article-79-2"
+      ],
+      "gold_rank": null,
+      "latency_ms": 13.1,
+      "n_gold_windows": 3
+    },
+    {
+      "id": "qa-0032",
+      "chunk_id": "article-109",
+      "chunk_type": "article",
+      "question": "What does 'safety components' refer to according to Article 11 of Regulation (EU) 2019/2144?",
+      "gold": [
+        "fixed-article-109-0"
+      ],
+      "gold_structural": [
+        "article-109"
+      ],
+      "retrieved": [
+        "fixed-article-109-0",
+        "fixed-article-108-1",
+        "fixed-recital-14-0",
+        "fixed-article-105-0",
+        "fixed-recital-2-0",
+        "fixed-recital-3-0",
+        "fixed-recital-6-0",
+        "fixed-recital-5-0",
+        "fixed-article-107-0",
+        "fixed-recital-4-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 15.41,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0033",
+      "chunk_id": "article-1",
+      "chunk_type": "article",
+      "question": "What are the specific requirements for high-risk AI systems?",
+      "gold": [
+        "fixed-article-1-0"
+      ],
+      "gold_structural": [
+        "article-1"
+      ],
+      "retrieved": [
+        "fixed-recital-66-0",
+        "fixed-recital-26-0",
+        "fixed-recital-72-0",
+        "fixed-article-15-0",
+        "fixed-recital-75-0",
+        "fixed-recital-52-0",
+        "fixed-recital-77-0",
+        "fixed-article-6-0",
+        "fixed-recital-71-0",
+        "fixed-recital-73-0"
+      ],
+      "gold_rank": null,
+      "latency_ms": 12.11,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0034",
+      "chunk_id": "article-22",
+      "chunk_type": "article",
+      "question": "What is the duration for which the authorised representative must keep the contact details and related documents?",
+      "gold": [
+        "fixed-article-22-0",
+        "fixed-article-22-1"
+      ],
+      "gold_structural": [
+        "article-22"
+      ],
+      "retrieved": [
+        "fixed-article-18-0",
+        "fixed-recital-5-0",
+        "fixed-article-22-1",
+        "fixed-recital-82-0",
+        "fixed-article-5-3",
+        "fixed-article-54-0",
+        "fixed-recital-35-0",
+        "fixed-article-78-1",
+        "fixed-article-5-5",
+        "fixed-article-91-0"
+      ],
+      "gold_rank": 3,
+      "latency_ms": 11.89,
+      "n_gold_windows": 2
+    },
+    {
+      "id": "qa-0035",
+      "chunk_id": "article-97",
+      "chunk_type": "article",
+      "question": "What is the duration of the initial delegation of power conferred on the Commission for Article 97?",
+      "gold": [
+        "fixed-article-97-1",
+        "fixed-article-97-0"
+      ],
+      "gold_structural": [
+        "article-97"
+      ],
+      "retrieved": [
+        "fixed-article-97-0",
+        "fixed-article-97-1",
+        "fixed-article-43-2",
+        "fixed-article-81-0",
+        "fixed-recital-175-0",
+        "fixed-article-70-1",
+        "fixed-article-88-0",
+        "fixed-article-106-0",
+        "fixed-recital-4-0",
+        "fixed-article-103-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 11.8,
+      "n_gold_windows": 2
+    },
+    {
+      "id": "qa-0036",
+      "chunk_id": "article-45",
+      "chunk_type": "article",
+      "question": "What types of information must notified bodies inform the notifying authority about?",
+      "gold": [
+        "fixed-article-45-0"
+      ],
+      "gold_structural": [
+        "article-45"
+      ],
+      "retrieved": [
+        "fixed-article-45-0",
+        "fixed-article-28-0",
+        "fixed-recital-19-0",
+        "fixed-article-31-0",
+        "fixed-article-31-1",
+        "fixed-recital-126-0",
+        "fixed-article-30-0",
+        "fixed-article-37-0",
+        "fixed-article-36-0",
+        "fixed-article-34-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 11.07,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0037",
+      "chunk_id": "article-79",
+      "chunk_type": "article",
+      "question": "What does an AI system presenting a risk refer to according to Article 79?",
+      "gold": [
+        "fixed-article-79-0",
+        "fixed-article-79-1",
+        "fixed-article-79-2"
+      ],
+      "gold_structural": [
+        "article-79"
+      ],
+      "retrieved": [
+        "fixed-article-82-0",
+        "fixed-article-79-0",
+        "fixed-article-6-0",
+        "fixed-recital-52-0",
+        "fixed-recital-26-0",
+        "fixed-recital-53-0",
+        "fixed-recital-65-0",
+        "fixed-recital-61-0",
+        "fixed-article-20-0",
+        "fixed-article-3-0"
+      ],
+      "gold_rank": 2,
+      "latency_ms": 11.93,
+      "n_gold_windows": 3
+    },
+    {
+      "id": "qa-0038",
+      "chunk_id": "article-21",
+      "chunk_type": "article",
+      "question": "What must providers of high-risk AI systems provide upon request?",
+      "gold": [
+        "fixed-article-21-0"
+      ],
+      "gold_structural": [
+        "article-21"
+      ],
+      "retrieved": [
+        "fixed-recital-66-0",
+        "fixed-recital-85-0",
+        "fixed-recital-72-0",
+        "fixed-article-21-0",
+        "fixed-article-25-0",
+        "fixed-recital-91-0",
+        "fixed-recital-155-0",
+        "fixed-article-25-1",
+        "fixed-recital-88-0",
+        "fixed-recital-73-0"
+      ],
+      "gold_rank": 4,
+      "latency_ms": 13.11,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0039",
+      "chunk_id": "article-92",
+      "chunk_type": "article",
+      "question": "What is required by providers of a general-purpose AI model when requested access?",
+      "gold": [
+        "fixed-article-92-0"
+      ],
+      "gold_structural": [
+        "article-92"
+      ],
+      "retrieved": [
+        "fixed-article-53-0",
+        "fixed-recital-97-0",
+        "fixed-recital-101-0",
+        "fixed-recital-114-0",
+        "fixed-article-92-0",
+        "fixed-recital-164-0",
+        "fixed-article-91-0",
+        "fixed-recital-162-0",
+        "fixed-recital-163-0",
+        "fixed-article-53-1"
+      ],
+      "gold_rank": 5,
+      "latency_ms": 11.7,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0040",
+      "chunk_id": "article-75",
+      "chunk_type": "article",
+      "question": "What powers does the AI Office have to monitor and supervise compliance?",
+      "gold": [
+        "fixed-article-75-0"
+      ],
+      "gold_structural": [
+        "article-75"
+      ],
+      "retrieved": [
+        "fixed-recital-164-0",
+        "fixed-recital-162-0",
+        "fixed-article-75-0",
+        "fixed-article-88-0",
+        "fixed-article-89-0",
+        "fixed-recital-47-0",
+        "fixed-recital-108-0",
+        "fixed-recital-151-0",
+        "fixed-article-64-0",
+        "fixed-article-68-1"
+      ],
+      "gold_rank": 3,
+      "latency_ms": 11.7,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0041",
+      "chunk_id": "article-104",
+      "chunk_type": "article",
+      "question": "What does the new regulation require for safety components within the meaning of Regulation (EU) 2024/1689?",
+      "gold": [
+        "fixed-article-104-0"
+      ],
+      "gold_structural": [
+        "article-104"
+      ],
+      "retrieved": [
+        "fixed-article-109-0",
+        "fixed-article-108-1",
+        "fixed-recital-3-0",
+        "fixed-article-105-0",
+        "fixed-recital-2-0",
+        "fixed-article-107-0",
+        "fixed-recital-5-0",
+        "fixed-recital-1-0",
+        "fixed-recital-6-0",
+        "fixed-article-103-0"
+      ],
+      "gold_rank": null,
+      "latency_ms": 11.22,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0042",
+      "chunk_id": "article-50",
+      "chunk_type": "article",
+      "question": "What must providers ensure about the outputs of their AI systems?",
+      "gold": [
+        "fixed-article-50-0",
+        "fixed-article-50-1"
+      ],
+      "gold_structural": [
+        "article-50"
+      ],
+      "retrieved": [
+        "fixed-recital-88-0",
+        "fixed-recital-164-0",
+        "fixed-recital-101-0",
+        "fixed-recital-162-0",
+        "fixed-article-50-0",
+        "fixed-article-4-0",
+        "fixed-recital-91-0",
+        "fixed-recital-72-0",
+        "fixed-recital-83-0",
+        "fixed-article-53-0"
+      ],
+      "gold_rank": 5,
+      "latency_ms": 12.13,
+      "n_gold_windows": 2
+    },
+    {
+      "id": "qa-0043",
+      "chunk_id": "article-14",
+      "chunk_type": "article",
+      "question": "What are the two types of measures identified by providers before placing high-risk AI systems on the market?",
+      "gold": [
+        "fixed-article-14-1",
+        "fixed-article-14-0"
+      ],
+      "gold_structural": [
+        "article-14"
+      ],
+      "retrieved": [
+        "fixed-recital-155-0",
+        "fixed-article-80-0",
+        "fixed-article-6-0",
+        "fixed-article-25-0",
+        "fixed-recital-125-0",
+        "fixed-recital-72-0",
+        "fixed-article-72-0",
+        "fixed-recital-52-0",
+        "fixed-article-82-0",
+        "fixed-recital-66-0"
+      ],
+      "gold_rank": null,
+      "latency_ms": 38.02,
+      "n_gold_windows": 2
+    },
+    {
+      "id": "qa-0044",
+      "chunk_id": "article-47",
+      "chunk_type": "article",
+      "question": "What information must be contained in the EU declaration of conformity for high-risk AI systems?",
+      "gold": [
+        "fixed-article-47-0"
+      ],
+      "gold_structural": [
+        "article-47"
+      ],
+      "retrieved": [
+        "fixed-article-47-0",
+        "fixed-article-42-0",
+        "fixed-annex-V-0",
+        "fixed-recital-77-0",
+        "fixed-recital-71-0",
+        "fixed-recital-125-0",
+        "fixed-recital-122-0",
+        "fixed-article-24-0",
+        "fixed-recital-72-0",
+        "fixed-recital-78-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 11.64,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0045",
+      "chunk_id": "article-76",
+      "chunk_type": "article",
+      "question": "What conditions must be met for testing in real world conditions to continue?",
+      "gold": [
+        "fixed-article-76-0"
+      ],
+      "gold_structural": [
+        "article-76"
+      ],
+      "retrieved": [
+        "fixed-recital-57-0",
+        "fixed-article-60-2",
+        "fixed-article-60-3",
+        "fixed-annex-IX-0",
+        "fixed-article-61-0",
+        "fixed-article-76-0",
+        "fixed-article-60-0",
+        "fixed-recital-141-0",
+        "fixed-article-60-1",
+        "fixed-recital-58-0"
+      ],
+      "gold_rank": 6,
+      "latency_ms": 11.32,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0046",
+      "chunk_id": "article-24",
+      "chunk_type": "article",
+      "question": "What must distributors ensure while a high-risk AI system is under their responsibility?",
+      "gold": [
+        "fixed-article-24-0"
+      ],
+      "gold_structural": [
+        "article-24"
+      ],
+      "retrieved": [
+        "fixed-article-25-0",
+        "fixed-article-25-1",
+        "fixed-article-24-0",
+        "fixed-recital-84-0",
+        "fixed-recital-155-0",
+        "fixed-recital-85-0",
+        "fixed-recital-66-0",
+        "fixed-recital-91-0",
+        "fixed-recital-72-0",
+        "fixed-recital-52-0"
+      ],
+      "gold_rank": 3,
+      "latency_ms": 12.38,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0047",
+      "chunk_id": "article-40",
+      "chunk_type": "article",
+      "question": "What are the energy-efficient development standards required for high-risk AI systems and general-purpose AI models?",
+      "gold": [
+        "fixed-article-40-0",
+        "fixed-article-40-1"
+      ],
+      "gold_structural": [
+        "article-40"
+      ],
+      "retrieved": [
+        "fixed-recital-111-0",
+        "fixed-recital-26-0",
+        "fixed-recital-66-0",
+        "fixed-article-40-0",
+        "fixed-annex-XI-1",
+        "fixed-article-15-0",
+        "fixed-recital-75-0",
+        "fixed-recital-114-0",
+        "fixed-recital-74-0",
+        "fixed-recital-97-0"
+      ],
+      "gold_rank": 4,
+      "latency_ms": 11.62,
+      "n_gold_windows": 2
+    },
+    {
+      "id": "qa-0048",
+      "chunk_id": "article-18",
+      "chunk_type": "article",
+      "question": "What must a provider keep for at least 10 years after an AI system is placed on the market?",
+      "gold": [
+        "fixed-article-18-0"
+      ],
+      "gold_structural": [
+        "article-18"
+      ],
+      "retrieved": [
+        "fixed-article-18-0",
+        "fixed-recital-155-0",
+        "fixed-recital-177-0",
+        "fixed-recital-84-0",
+        "fixed-recital-71-0",
+        "fixed-article-111-0",
+        "fixed-recital-86-0",
+        "fixed-recital-130-0",
+        "fixed-article-25-0",
+        "fixed-recital-3-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 12.22,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0049",
+      "chunk_id": "article-53",
+      "chunk_type": "article",
+      "question": "What must providers do for AI systems integrating their general-purpose AI models?",
+      "gold": [
+        "fixed-article-53-1",
+        "fixed-article-53-0"
+      ],
+      "gold_structural": [
+        "article-53"
+      ],
+      "retrieved": [
+        "fixed-recital-97-0",
+        "fixed-recital-100-0",
+        "fixed-recital-101-0",
+        "fixed-article-53-0",
+        "fixed-recital-88-0",
+        "fixed-recital-114-0",
+        "fixed-recital-162-0",
+        "fixed-recital-85-0",
+        "fixed-recital-164-0",
+        "fixed-recital-66-0"
+      ],
+      "gold_rank": 4,
+      "latency_ms": 12.23,
+      "n_gold_windows": 2
+    },
+    {
+      "id": "qa-0050",
+      "chunk_id": "article-4",
+      "chunk_type": "article",
+      "question": "What is considered when determining a sufficient level of AI literacy for staff?",
+      "gold": [
+        "fixed-article-4-0"
+      ],
+      "gold_structural": [
+        "article-4"
+      ],
+      "retrieved": [
+        "fixed-article-4-0",
+        "fixed-recital-20-0",
+        "fixed-recital-56-0",
+        "fixed-recital-56-0",
+        "fixed-recital-53-1",
+        "fixed-recital-91-0",
+        "fixed-recital-165-0",
+        "fixed-article-21-0",
+        "fixed-recital-74-0",
+        "fixed-recital-72-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 11.11,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0051",
+      "chunk_id": "article-48",
+      "chunk_type": "article",
+      "question": "What is required for digital CE marking of high-risk AI systems provided digitally?",
+      "gold": [
+        "fixed-article-48-0"
+      ],
+      "gold_structural": [
+        "article-48"
+      ],
+      "retrieved": [
+        "fixed-recital-129-0",
+        "fixed-article-48-0",
+        "fixed-recital-125-0",
+        "fixed-recital-71-0",
+        "fixed-recital-77-0",
+        "fixed-recital-74-0",
+        "fixed-recital-66-0",
+        "fixed-recital-72-0",
+        "fixed-article-15-0",
+        "fixed-article-24-0"
+      ],
+      "gold_rank": 2,
+      "latency_ms": 11.32,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0052",
+      "chunk_id": "article-91",
+      "chunk_type": "article",
+      "question": "What fines can be provided for supplying incorrect, incomplete or misleading information in a request for information?",
+      "gold": [
+        "fixed-article-91-0"
+      ],
+      "gold_structural": [
+        "article-91"
+      ],
+      "retrieved": [
+        "fixed-article-99-1",
+        "fixed-article-100-1",
+        "fixed-recital-168-0",
+        "fixed-article-101-0",
+        "fixed-article-99-2",
+        "fixed-article-100-0",
+        "fixed-recital-169-0",
+        "fixed-article-91-0",
+        "fixed-recital-170-0",
+        "fixed-article-99-0"
+      ],
+      "gold_rank": 8,
+      "latency_ms": 11.17,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0053",
+      "chunk_id": "article-36",
+      "chunk_type": "article",
+      "question": "What happens if a notified body decides to cease its conformity assessment activities?",
+      "gold": [
+        "fixed-article-36-0",
+        "fixed-article-36-2",
+        "fixed-article-36-1"
+      ],
+      "gold_structural": [
+        "article-36"
+      ],
+      "retrieved": [
+        "fixed-article-36-0",
+        "fixed-recital-22-0",
+        "fixed-annex-VII-3",
+        "fixed-article-45-0",
+        "fixed-annex-VII-1",
+        "fixed-article-29-0",
+        "fixed-article-37-0",
+        "fixed-article-31-1",
+        "fixed-recital-21-0",
+        "fixed-article-34-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 11.57,
+      "n_gold_windows": 3
+    },
+    {
+      "id": "qa-0054",
+      "chunk_id": "article-9",
+      "chunk_type": "article",
+      "question": "What are the four steps included in a risk management system for high-risk AI systems?",
+      "gold": [
+        "fixed-article-9-0",
+        "fixed-article-9-1"
+      ],
+      "gold_structural": [
+        "article-9"
+      ],
+      "retrieved": [
+        "fixed-article-9-0",
+        "fixed-recital-65-0",
+        "fixed-recital-26-0",
+        "fixed-recital-66-0",
+        "fixed-recital-72-0",
+        "fixed-article-6-0",
+        "fixed-article-9-1",
+        "fixed-recital-111-0",
+        "fixed-recital-71-0",
+        "fixed-recital-52-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 12.42,
+      "n_gold_windows": 2
+    },
+    {
+      "id": "qa-0055",
+      "chunk_id": "article-26",
+      "chunk_type": "article",
+      "question": "What is required for input data in high-risk AI systems?",
+      "gold": [
+        "fixed-article-26-2",
+        "fixed-article-26-3",
+        "fixed-article-26-0",
+        "fixed-article-26-1"
+      ],
+      "gold_structural": [
+        "article-26"
+      ],
+      "retrieved": [
+        "fixed-recital-66-0",
+        "fixed-recital-26-0",
+        "fixed-recital-72-0",
+        "fixed-recital-71-0",
+        "fixed-recital-33-0",
+        "fixed-recital-111-0",
+        "fixed-article-15-0",
+        "fixed-article-10-0",
+        "fixed-recital-30-0",
+        "fixed-article-6-0"
+      ],
+      "gold_rank": null,
+      "latency_ms": 20.75,
+      "n_gold_windows": 4
+    },
+    {
+      "id": "qa-0056",
+      "chunk_id": "article-7",
+      "chunk_type": "article",
+      "question": "What criteria must be considered by the Commission when assessing the risk of harm posed by high-risk AI systems?",
+      "gold": [
+        "fixed-article-7-0",
+        "fixed-article-7-1"
+      ],
+      "gold_structural": [
+        "article-7"
+      ],
+      "retrieved": [
+        "fixed-recital-52-0",
+        "fixed-recital-66-0",
+        "fixed-article-6-1",
+        "fixed-article-82-0",
+        "fixed-recital-74-0",
+        "fixed-article-6-0",
+        "fixed-recital-26-0",
+        "fixed-recital-65-0",
+        "fixed-recital-165-0",
+        "fixed-recital-72-0"
+      ],
+      "gold_rank": null,
+      "latency_ms": 18.77,
+      "n_gold_windows": 2
+    },
+    {
+      "id": "qa-0057",
+      "chunk_id": "article-86",
+      "chunk_type": "article",
+      "question": "What are the exceptions to the right of affected persons to explanations?",
+      "gold": [
+        "fixed-article-86-0"
+      ],
+      "gold_structural": [
+        "article-86"
+      ],
+      "retrieved": [
+        "fixed-recital-171-0",
+        "fixed-article-86-0",
+        "fixed-recital-48-0",
+        "fixed-recital-132-0",
+        "fixed-recital-170-0",
+        "fixed-recital-31-0",
+        "fixed-article-7-1",
+        "fixed-recital-172-0",
+        "fixed-recital-29-1",
+        "fixed-recital-33-1"
+      ],
+      "gold_rank": 2,
+      "latency_ms": 18.77,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0058",
+      "chunk_id": "article-20",
+      "chunk_type": "article",
+      "question": "What must providers do if they find their high-risk AI system is not compliant?",
+      "gold": [
+        "fixed-article-20-0"
+      ],
+      "gold_structural": [
+        "article-20"
+      ],
+      "retrieved": [
+        "fixed-article-80-0",
+        "fixed-recital-125-0",
+        "fixed-recital-72-0",
+        "fixed-recital-85-0",
+        "fixed-recital-84-0",
+        "fixed-recital-155-0",
+        "fixed-article-22-1",
+        "fixed-recital-66-0",
+        "fixed-recital-86-0",
+        "fixed-recital-73-0"
+      ],
+      "gold_rank": null,
+      "latency_ms": 41.13,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0059",
+      "chunk_id": "article-42",
+      "chunk_type": "article",
+      "question": "What type of AI systems are presumed to comply with specific geographical, behavioural, contextual or functional setting requirements?",
+      "gold": [
+        "fixed-article-42-0"
+      ],
+      "gold_structural": [
+        "article-42"
+      ],
+      "retrieved": [
+        "fixed-recital-97-0",
+        "fixed-recital-12-0",
+        "fixed-recital-66-0",
+        "fixed-recital-122-0",
+        "fixed-recital-26-0",
+        "fixed-recital-85-0",
+        "fixed-recital-139-1",
+        "fixed-recital-1-0",
+        "fixed-article-50-0",
+        "fixed-article-3-0"
+      ],
+      "gold_rank": null,
+      "latency_ms": 17.19,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0060",
+      "chunk_id": "recital-166",
+      "chunk_type": "recital",
+      "question": "What does Regulation (EU) 2023/988 cover?",
+      "gold": [
+        "fixed-recital-166-0"
+      ],
+      "gold_structural": [
+        "recital-166"
+      ],
+      "retrieved": [
+        "fixed-article-109-0",
+        "fixed-article-107-0",
+        "fixed-annex-X-1",
+        "fixed-article-113-0",
+        "fixed-article-108-0",
+        "fixed-annex-X-0",
+        "fixed-article-105-0",
+        "fixed-annex-I-3",
+        "fixed-annex-X-2",
+        "fixed-annex-X-3"
+      ],
+      "gold_rank": null,
+      "latency_ms": 16.12,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0061",
+      "chunk_id": "recital-97",
+      "chunk_type": "recital",
+      "question": "What does the Regulation provide specific rules for?",
+      "gold": [
+        "fixed-recital-97-0"
+      ],
+      "gold_structural": [
+        "recital-97"
+      ],
+      "retrieved": [
+        "fixed-recital-37-0",
+        "fixed-article-1-0",
+        "fixed-recital-175-0",
+        "fixed-recital-1-0",
+        "fixed-recital-179-0",
+        "fixed-recital-9-1",
+        "fixed-recital-176-0",
+        "fixed-recital-157-0",
+        "fixed-recital-140-0",
+        "fixed-article-96-0"
+      ],
+      "gold_rank": null,
+      "latency_ms": 19.26,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0062",
+      "chunk_id": "recital-155",
+      "chunk_type": "recital",
+      "question": "What type of incidents must providers report?",
+      "gold": [
+        "fixed-recital-155-0"
+      ],
+      "gold_structural": [
+        "recital-155"
+      ],
+      "retrieved": [
+        "fixed-article-73-0",
+        "fixed-article-73-1",
+        "fixed-article-89-0",
+        "fixed-recital-155-0",
+        "fixed-article-22-1",
+        "fixed-recital-96-1",
+        "fixed-article-60-3",
+        "fixed-recital-115-0",
+        "fixed-recital-36-0",
+        "fixed-recital-164-0"
+      ],
+      "gold_rank": 4,
+      "latency_ms": 44.51,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0063",
+      "chunk_id": "recital-53",
+      "chunk_type": "recital",
+      "question": "What type of tasks do AI systems fall under if they do not influence decision-making?",
+      "gold": [
+        "fixed-recital-53-1",
+        "fixed-recital-53-0"
+      ],
+      "gold_structural": [
+        "recital-53"
+      ],
+      "retrieved": [
+        "fixed-recital-53-0",
+        "fixed-recital-26-0",
+        "fixed-recital-12-0",
+        "fixed-recital-61-0",
+        "fixed-recital-128-0",
+        "fixed-recital-18-0",
+        "fixed-recital-1-0",
+        "fixed-recital-97-0",
+        "fixed-recital-85-0",
+        "fixed-recital-25-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 11.91,
+      "n_gold_windows": 2
+    },
+    {
+      "id": "qa-0064",
+      "chunk_id": "recital-56",
+      "chunk_type": "recital",
+      "question": "What are the skills required for 'AI literacy' according to RECITAL 56?",
+      "gold": [
+        "fixed-recital-56-0"
+      ],
+      "gold_structural": [
+        "recital-56"
+      ],
+      "retrieved": [
+        "fixed-recital-56-0",
+        "fixed-recital-20-0",
+        "fixed-article-4-0",
+        "fixed-recital-56-0",
+        "fixed-recital-18-0",
+        "fixed-recital-29-0",
+        "fixed-recital-53-1",
+        "fixed-recital-164-0",
+        "fixed-article-64-0",
+        "fixed-recital-107-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 12.23,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0065",
+      "chunk_id": "recital-19",
+      "chunk_type": "recital",
+      "question": "What conditions can make a space publicly accessible according to RECITAL 19?",
+      "gold": [
+        "fixed-recital-19-0"
+      ],
+      "gold_structural": [
+        "recital-19"
+      ],
+      "retrieved": [
+        "fixed-recital-44-0",
+        "fixed-recital-19-0",
+        "fixed-recital-34-0",
+        "fixed-article-5-2",
+        "fixed-article-5-5",
+        "fixed-recital-131-0",
+        "fixed-recital-33-0",
+        "fixed-recital-38-0",
+        "fixed-article-5-4",
+        "fixed-recital-68-0"
+      ],
+      "gold_rank": 2,
+      "latency_ms": 22.64,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0066",
+      "chunk_id": "recital-13",
+      "chunk_type": "recital",
+      "question": "Who can be considered as a 'deployer' under this Regulation?",
+      "gold": [
+        "fixed-recital-13-0"
+      ],
+      "gold_structural": [
+        "recital-13"
+      ],
+      "retrieved": [
+        "fixed-recital-13-0",
+        "fixed-recital-91-0",
+        "fixed-recital-4-0",
+        "fixed-article-26-0",
+        "fixed-article-26-3",
+        "fixed-recital-93-0",
+        "fixed-recital-8-0",
+        "fixed-recital-83-0",
+        "fixed-article-62-0",
+        "fixed-recital-96-1"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 11.27,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0067",
+      "chunk_id": "recital-62",
+      "chunk_type": "recital",
+      "question": "What is considered a high-risk AI system for influencing elections?",
+      "gold": [
+        "fixed-recital-62-0"
+      ],
+      "gold_structural": [
+        "recital-62"
+      ],
+      "retrieved": [
+        "fixed-recital-61-0",
+        "fixed-recital-62-0",
+        "fixed-recital-52-0",
+        "fixed-recital-120-0",
+        "fixed-recital-26-0",
+        "fixed-annex-III-3",
+        "fixed-article-6-0",
+        "fixed-recital-77-0",
+        "fixed-article-80-0",
+        "fixed-article-82-0"
+      ],
+      "gold_rank": 2,
+      "latency_ms": 12.23,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0068",
+      "chunk_id": "recital-78",
+      "chunk_type": "recital",
+      "question": "What type of products are exempt from reducing necessary level of assurance?",
+      "gold": [
+        "fixed-recital-78-0"
+      ],
+      "gold_structural": [
+        "recital-78"
+      ],
+      "retrieved": [
+        "fixed-recital-50-0",
+        "fixed-article-2-2",
+        "fixed-recital-124-0",
+        "fixed-article-63-0",
+        "fixed-recital-147-0",
+        "fixed-recital-29-1",
+        "fixed-recital-166-0",
+        "fixed-recital-51-0",
+        "fixed-recital-146-0",
+        "fixed-article-79-2"
+      ],
+      "gold_rank": null,
+      "latency_ms": 13.02,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0069",
+      "chunk_id": "recital-22",
+      "chunk_type": "recital",
+      "question": "What type of AI systems are exempt from applying to this Regulation?",
+      "gold": [
+        "fixed-recital-22-0"
+      ],
+      "gold_structural": [
+        "recital-22"
+      ],
+      "retrieved": [
+        "fixed-article-2-2",
+        "fixed-recital-24-0",
+        "fixed-recital-25-0",
+        "fixed-recital-63-0",
+        "fixed-recital-3-0",
+        "fixed-article-5-0",
+        "fixed-article-5-1",
+        "fixed-recital-179-0",
+        "fixed-recital-85-0",
+        "fixed-recital-166-0"
+      ],
+      "gold_rank": null,
+      "latency_ms": 12.59,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0070",
+      "chunk_id": "recital-63",
+      "chunk_type": "recital",
+      "question": "What does Article 63 state about the use of systems to detect emotional states?",
+      "gold": [
+        "fixed-recital-63-0"
+      ],
+      "gold_structural": [
+        "recital-63"
+      ],
+      "retrieved": [
+        "fixed-recital-44-0",
+        "fixed-recital-18-0",
+        "fixed-recital-39-0",
+        "fixed-article-3-4",
+        "fixed-annex-III-2",
+        "fixed-recital-31-0",
+        "fixed-recital-132-0",
+        "fixed-article-50-0",
+        "fixed-recital-63-0",
+        "fixed-article-5-1"
+      ],
+      "gold_rank": 9,
+      "latency_ms": 11.94,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0071",
+      "chunk_id": "recital-28",
+      "chunk_type": "recital",
+      "question": "What practices are prohibited due to their contradiction with Union values?",
+      "gold": [
+        "fixed-recital-28-0"
+      ],
+      "gold_structural": [
+        "recital-28"
+      ],
+      "retrieved": [
+        "fixed-recital-28-0",
+        "fixed-recital-45-0",
+        "fixed-article-5-5",
+        "fixed-recital-63-0",
+        "fixed-article-5-0",
+        "fixed-recital-157-0",
+        "fixed-recital-170-0",
+        "fixed-recital-30-0",
+        "fixed-recital-31-0",
+        "fixed-recital-176-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 17.53,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0072",
+      "chunk_id": "recital-103",
+      "chunk_type": "recital",
+      "question": "What kind of channels can free and open-source AI components be provided through?",
+      "gold": [
+        "fixed-recital-103-0"
+      ],
+      "gold_structural": [
+        "recital-103"
+      ],
+      "retrieved": [
+        "fixed-recital-103-0",
+        "fixed-recital-89-0",
+        "fixed-recital-102-0",
+        "fixed-recital-143-0",
+        "fixed-recital-97-0",
+        "fixed-recital-104-0",
+        "fixed-recital-105-0",
+        "fixed-recital-88-0",
+        "fixed-recital-133-0",
+        "fixed-recital-119-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 11.61,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0073",
+      "chunk_id": "recital-75",
+      "chunk_type": "recital",
+      "question": "What measures should be taken to ensure robustness of high-risk AI systems?",
+      "gold": [
+        "fixed-recital-75-0"
+      ],
+      "gold_structural": [
+        "recital-75"
+      ],
+      "retrieved": [
+        "fixed-recital-75-0",
+        "fixed-article-15-0",
+        "fixed-recital-26-0",
+        "fixed-recital-66-0",
+        "fixed-recital-72-0",
+        "fixed-recital-77-0",
+        "fixed-recital-71-0",
+        "fixed-recital-74-0",
+        "fixed-recital-52-0",
+        "fixed-recital-7-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 12.39,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0074",
+      "chunk_id": "recital-122",
+      "chunk_type": "recital",
+      "question": "What type of AI systems are presumed to comply with data governance requirements based on their training and testing?",
+      "gold": [
+        "fixed-recital-122-0"
+      ],
+      "gold_structural": [
+        "recital-122"
+      ],
+      "retrieved": [
+        "fixed-article-10-0",
+        "fixed-recital-122-0",
+        "fixed-recital-67-0",
+        "fixed-recital-69-0",
+        "fixed-recital-68-0",
+        "fixed-recital-29-0",
+        "fixed-recital-27-0",
+        "fixed-recital-26-0",
+        "fixed-recital-12-0",
+        "fixed-recital-138-0"
+      ],
+      "gold_rank": 2,
+      "latency_ms": 10.95,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0075",
+      "chunk_id": "recital-170",
+      "chunk_type": "recital",
+      "question": "What remedy does Union law already provide?",
+      "gold": [
+        "fixed-recital-170-0"
+      ],
+      "gold_structural": [
+        "recital-170"
+      ],
+      "retrieved": [
+        "fixed-recital-170-0",
+        "fixed-recital-9-0",
+        "fixed-recital-176-0",
+        "fixed-recital-172-0",
+        "fixed-article-99-2",
+        "fixed-recital-171-0",
+        "fixed-article-7-1",
+        "fixed-recital-8-0",
+        "fixed-recital-9-1",
+        "fixed-recital-127-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 11.37,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0076",
+      "chunk_id": "recital-98",
+      "chunk_type": "recital",
+      "question": "What is the threshold for considering a model as displaying significant generality?",
+      "gold": [
+        "fixed-recital-98-0"
+      ],
+      "gold_structural": [
+        "recital-98"
+      ],
+      "retrieved": [
+        "fixed-recital-98-0",
+        "fixed-recital-112-0",
+        "fixed-recital-111-0",
+        "fixed-article-51-0",
+        "fixed-recital-111-1",
+        "fixed-annex-XIII-0",
+        "fixed-recital-104-0",
+        "fixed-article-52-0",
+        "fixed-recital-97-0",
+        "fixed-recital-63-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 11.13,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0077",
+      "chunk_id": "recital-44",
+      "chunk_type": "recital",
+      "question": "What type of AI systems are exempt from the prohibition mentioned in RECITAL 44?",
+      "gold": [
+        "fixed-recital-44-0"
+      ],
+      "gold_structural": [
+        "recital-44"
+      ],
+      "retrieved": [
+        "fixed-article-5-0",
+        "fixed-article-5-1",
+        "fixed-recital-24-0",
+        "fixed-article-2-2",
+        "fixed-recital-26-0",
+        "fixed-recital-31-0",
+        "fixed-recital-63-0",
+        "fixed-recital-53-0",
+        "fixed-recital-29-1",
+        "fixed-article-5-5"
+      ],
+      "gold_rank": null,
+      "latency_ms": 12.27,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0078",
+      "chunk_id": "recital-100",
+      "chunk_type": "recital",
+      "question": "What is required for an AI system to be classified as a general-purpose AI system?",
+      "gold": [
+        "fixed-recital-100-0"
+      ],
+      "gold_structural": [
+        "recital-100"
+      ],
+      "retrieved": [
+        "fixed-recital-66-0",
+        "fixed-recital-100-0",
+        "fixed-recital-97-0",
+        "fixed-recital-63-0",
+        "fixed-recital-113-0",
+        "fixed-recital-12-0",
+        "fixed-recital-85-0",
+        "fixed-article-51-0",
+        "fixed-recital-112-0",
+        "fixed-article-3-0"
+      ],
+      "gold_rank": 2,
+      "latency_ms": 11.74,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0079",
+      "chunk_id": "recital-95",
+      "chunk_type": "recital",
+      "question": "What are the conditions that post-remote biometric identification systems must be strictly necessary for?",
+      "gold": [
+        "fixed-recital-95-0"
+      ],
+      "gold_structural": [
+        "recital-95"
+      ],
+      "retrieved": [
+        "fixed-recital-95-0",
+        "fixed-recital-43-0",
+        "fixed-recital-34-0",
+        "fixed-recital-17-0",
+        "fixed-recital-35-0",
+        "fixed-recital-41-0",
+        "fixed-article-5-3",
+        "fixed-article-5-2",
+        "fixed-article-5-4",
+        "fixed-recital-54-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 11.67,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0080",
+      "chunk_id": "recital-57",
+      "chunk_type": "recital",
+      "question": "What type of AI systems are considered high-risk in employment?",
+      "gold": [
+        "fixed-recital-57-0"
+      ],
+      "gold_structural": [
+        "recital-57"
+      ],
+      "retrieved": [
+        "fixed-recital-57-0",
+        "fixed-recital-52-0",
+        "fixed-article-6-0",
+        "fixed-recital-61-0",
+        "fixed-recital-58-1",
+        "fixed-annex-III-0",
+        "fixed-recital-56-0",
+        "fixed-recital-66-0",
+        "fixed-recital-51-0",
+        "fixed-recital-93-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 11.9,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0081",
+      "chunk_id": "recital-72",
+      "chunk_type": "recital",
+      "question": "What information must high-risk AI systems include in their accompanying instructions?",
+      "gold": [
+        "fixed-recital-72-0"
+      ],
+      "gold_structural": [
+        "recital-72"
+      ],
+      "retrieved": [
+        "fixed-recital-72-0",
+        "fixed-recital-71-0",
+        "fixed-recital-66-0",
+        "fixed-article-13-0",
+        "fixed-recital-26-0",
+        "fixed-recital-91-0",
+        "fixed-recital-52-0",
+        "fixed-article-21-0",
+        "fixed-article-6-0",
+        "fixed-article-15-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 12.03,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0082",
+      "chunk_id": "recital-173",
+      "chunk_type": "recital",
+      "question": "What does Article 290 TFEU allow the Commission to do regarding high-risk AI systems?",
+      "gold": [
+        "fixed-recital-173-0"
+      ],
+      "gold_structural": [
+        "recital-173"
+      ],
+      "retrieved": [
+        "fixed-recital-173-0",
+        "fixed-recital-49-0",
+        "fixed-article-82-0",
+        "fixed-recital-46-0",
+        "fixed-recital-3-0",
+        "fixed-recital-52-0",
+        "fixed-recital-7-0",
+        "fixed-recital-165-0",
+        "fixed-recital-169-0",
+        "fixed-recital-166-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 10.49,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0083",
+      "chunk_id": "recital-20",
+      "chunk_type": "recital",
+      "question": "What are some key areas of understanding that AI literacy aims to provide?",
+      "gold": [
+        "fixed-recital-20-0"
+      ],
+      "gold_structural": [
+        "recital-20"
+      ],
+      "retrieved": [
+        "fixed-recital-56-0",
+        "fixed-recital-20-0",
+        "fixed-article-4-0",
+        "fixed-recital-56-0",
+        "fixed-recital-18-0",
+        "fixed-recital-4-0",
+        "fixed-recital-6-0",
+        "fixed-recital-12-0",
+        "fixed-recital-142-0",
+        "fixed-recital-133-0"
+      ],
+      "gold_rank": 2,
+      "latency_ms": 10.66,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0084",
+      "chunk_id": "recital-163",
+      "chunk_type": "recital",
+      "question": "What are the conditions under which the scientific panel may provide alerts to the AI Office?",
+      "gold": [
+        "fixed-recital-163-0"
+      ],
+      "gold_structural": [
+        "recital-163"
+      ],
+      "retrieved": [
+        "fixed-article-90-0",
+        "fixed-recital-163-0",
+        "fixed-recital-151-0",
+        "fixed-recital-113-0",
+        "fixed-article-68-0",
+        "fixed-article-68-1",
+        "fixed-recital-162-0",
+        "fixed-recital-47-0",
+        "fixed-article-92-0",
+        "fixed-recital-164-0"
+      ],
+      "gold_rank": 2,
+      "latency_ms": 10.68,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0085",
+      "chunk_id": "recital-23",
+      "chunk_type": "recital",
+      "question": "What constitutes a 'substantial modification' under the EU AI Act?",
+      "gold": [
+        "fixed-recital-23-0"
+      ],
+      "gold_structural": [
+        "recital-23"
+      ],
+      "retrieved": [
+        "fixed-recital-23-0",
+        "fixed-recital-128-0",
+        "fixed-recital-177-0",
+        "fixed-article-108-0",
+        "fixed-article-3-2",
+        "fixed-recital-49-0",
+        "fixed-recital-4-0",
+        "fixed-recital-1-0",
+        "fixed-article-105-0",
+        "fixed-recital-173-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 11.58,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0086",
+      "chunk_id": "recital-47",
+      "chunk_type": "recital",
+      "question": "What is required of AI systems that could affect health and safety?",
+      "gold": [
+        "fixed-recital-47-0"
+      ],
+      "gold_structural": [
+        "recital-47"
+      ],
+      "retrieved": [
+        "fixed-recital-47-0",
+        "fixed-recital-66-0",
+        "fixed-recital-52-0",
+        "fixed-recital-26-0",
+        "fixed-article-6-0",
+        "fixed-recital-72-0",
+        "fixed-recital-166-0",
+        "fixed-recital-65-0",
+        "fixed-recital-73-0",
+        "fixed-recital-91-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 12.14,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0087",
+      "chunk_id": "recital-143",
+      "chunk_type": "recital",
+      "question": "What kind of access do SMEs have to AI regulatory sandboxes?",
+      "gold": [
+        "fixed-recital-143-0",
+        "fixed-recital-143-1"
+      ],
+      "gold_structural": [
+        "recital-143"
+      ],
+      "retrieved": [
+        "fixed-recital-139-0",
+        "fixed-article-58-1",
+        "fixed-article-62-0",
+        "fixed-recital-143-0",
+        "fixed-recital-138-0",
+        "fixed-recital-55-0",
+        "fixed-article-57-2",
+        "fixed-recital-139-1",
+        "fixed-article-57-1",
+        "fixed-article-57-3"
+      ],
+      "gold_rank": 4,
+      "latency_ms": 11.38,
+      "n_gold_windows": 2
+    },
+    {
+      "id": "qa-0088",
+      "chunk_id": "recital-66",
+      "chunk_type": "recital",
+      "question": "What is required regarding transparency and information provision in high-risk AI systems?",
+      "gold": [
+        "fixed-recital-66-0"
+      ],
+      "gold_structural": [
+        "recital-66"
+      ],
+      "retrieved": [
+        "fixed-recital-72-0",
+        "fixed-article-13-0",
+        "fixed-recital-26-0",
+        "fixed-recital-66-0",
+        "fixed-recital-71-0",
+        "fixed-recital-125-0",
+        "fixed-recital-77-0",
+        "fixed-article-15-0",
+        "fixed-recital-122-0",
+        "fixed-recital-133-0"
+      ],
+      "gold_rank": 4,
+      "latency_ms": 12.74,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0089",
+      "chunk_id": "annex-III",
+      "chunk_type": "annex",
+      "question": "What is not considered a high-risk AI system under Article 6(2)?",
+      "gold": [
+        "fixed-annex-III-1",
+        "fixed-annex-III-0",
+        "fixed-annex-III-3",
+        "fixed-annex-III-2"
+      ],
+      "gold_structural": [
+        "annex-III"
+      ],
+      "retrieved": [
+        "fixed-recital-166-0",
+        "fixed-article-80-0",
+        "fixed-recital-51-0",
+        "fixed-recital-53-0",
+        "fixed-recital-52-0",
+        "fixed-article-6-0",
+        "fixed-article-6-1",
+        "fixed-annex-III-0",
+        "fixed-recital-61-0",
+        "fixed-recital-66-0"
+      ],
+      "gold_rank": 8,
+      "latency_ms": 13.48,
+      "n_gold_windows": 4
+    },
+    {
+      "id": "qa-0090",
+      "chunk_id": "annex-VIII",
+      "chunk_type": "annex",
+      "question": "What is the minimum status of an AI system that must be provided?",
+      "gold": [
+        "fixed-annex-VIII-1",
+        "fixed-annex-VIII-0"
+      ],
+      "gold_structural": [
+        "annex-VIII"
+      ],
+      "retrieved": [
+        "fixed-recital-66-0",
+        "fixed-recital-73-0",
+        "fixed-recital-91-0",
+        "fixed-recital-12-0",
+        "fixed-article-50-0",
+        "fixed-recital-72-0",
+        "fixed-recital-18-0",
+        "fixed-annex-IX-0",
+        "fixed-recital-26-0",
+        "fixed-annex-VIII-0"
+      ],
+      "gold_rank": 10,
+      "latency_ms": 10.7,
+      "n_gold_windows": 2
+    },
+    {
+      "id": "qa-0091",
+      "chunk_id": "annex-VII",
+      "chunk_type": "annex",
+      "question": "What must a provider include in their application for a quality management system?",
+      "gold": [
+        "fixed-annex-VII-3",
+        "fixed-annex-VII-2",
+        "fixed-annex-VII-0",
+        "fixed-annex-VII-1"
+      ],
+      "gold_structural": [
+        "annex-VII"
+      ],
+      "retrieved": [
+        "fixed-recital-81-0",
+        "fixed-article-17-1",
+        "fixed-article-17-0",
+        "fixed-recital-146-0",
+        "fixed-recital-143-0",
+        "fixed-annex-VII-0",
+        "fixed-recital-101-0",
+        "fixed-recital-143-1",
+        "fixed-article-63-0",
+        "fixed-annex-VII-1"
+      ],
+      "gold_rank": 6,
+      "latency_ms": 10.52,
+      "n_gold_windows": 4
+    },
+    {
+      "id": "qa-0092",
+      "chunk_id": "annex-V",
+      "chunk_type": "annex",
+      "question": "What must be stated in the EU declaration of conformity regarding personal data processing?",
+      "gold": [
+        "fixed-annex-V-0"
+      ],
+      "gold_structural": [
+        "annex-V"
+      ],
+      "retrieved": [
+        "fixed-annex-V-0",
+        "fixed-recital-50-0",
+        "fixed-recital-51-0",
+        "fixed-recital-10-0",
+        "fixed-article-47-0",
+        "fixed-recital-39-0",
+        "fixed-recital-140-0",
+        "fixed-recital-94-0",
+        "fixed-article-78-0",
+        "fixed-recital-37-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 11.1,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0093",
+      "chunk_id": "annex-IX",
+      "chunk_type": "annex",
+      "question": "What is required to be provided regarding the AI system's intended purpose?",
+      "gold": [
+        "fixed-annex-IX-0"
+      ],
+      "gold_structural": [
+        "annex-IX"
+      ],
+      "retrieved": [
+        "fixed-recital-12-0",
+        "fixed-recital-18-0",
+        "fixed-recital-12-0",
+        "fixed-recital-26-0",
+        "fixed-recital-97-0",
+        "fixed-recital-66-0",
+        "fixed-recital-91-0",
+        "fixed-recital-73-0",
+        "fixed-recital-72-0",
+        "fixed-article-3-0"
+      ],
+      "gold_rank": null,
+      "latency_ms": 11.25,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0094",
+      "chunk_id": "annex-IV",
+      "chunk_type": "annex",
+      "question": "What must a detailed description of the elements of the AI system include?",
+      "gold": [
+        "fixed-annex-IV-0",
+        "fixed-annex-IV-2",
+        "fixed-annex-IV-1"
+      ],
+      "gold_structural": [
+        "annex-IV"
+      ],
+      "retrieved": [
+        "fixed-recital-12-0",
+        "fixed-annex-IV-0",
+        "fixed-recital-18-0",
+        "fixed-recital-1-0",
+        "fixed-recital-72-0",
+        "fixed-recital-97-0",
+        "fixed-article-3-0",
+        "fixed-recital-26-0",
+        "fixed-recital-71-0",
+        "fixed-annex-IV-1"
+      ],
+      "gold_rank": 2,
+      "latency_ms": 11.1,
+      "n_gold_windows": 3
+    },
+    {
+      "id": "qa-0095",
+      "chunk_id": "annex-VI",
+      "chunk_type": "annex",
+      "question": "What does a provider need to verify about their quality management system?",
+      "gold": [
+        "fixed-annex-VI-0"
+      ],
+      "gold_structural": [
+        "annex-VI"
+      ],
+      "retrieved": [
+        "fixed-annex-VII-0",
+        "fixed-recital-81-0",
+        "fixed-article-17-0",
+        "fixed-annex-VII-1",
+        "fixed-article-17-1",
+        "fixed-annex-VII-3",
+        "fixed-annex-VI-0",
+        "fixed-recital-146-0",
+        "fixed-recital-71-0",
+        "fixed-recital-101-0"
+      ],
+      "gold_rank": 7,
+      "latency_ms": 11.57,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0096",
+      "chunk_id": "annex-XIII",
+      "chunk_type": "annex",
+      "question": "What is considered as the state of the art threshold for determining high-impact capabilities for multi-modality models?",
+      "gold": [
+        "fixed-annex-XIII-0"
+      ],
+      "gold_structural": [
+        "annex-XIII"
+      ],
+      "retrieved": [
+        "fixed-recital-111-0",
+        "fixed-annex-XIII-0",
+        "fixed-recital-64-0",
+        "fixed-article-51-0",
+        "fixed-recital-112-0",
+        "fixed-article-15-0",
+        "fixed-article-3-8",
+        "fixed-recital-75-0",
+        "fixed-recital-111-1",
+        "fixed-recital-74-0"
+      ],
+      "gold_rank": 2,
+      "latency_ms": 10.33,
+      "n_gold_windows": 1
+    },
+    {
+      "id": "qa-0097",
+      "chunk_id": "annex-I",
+      "chunk_type": "annex",
+      "question": "What is the earliest date mentioned for the harmonisation directives in ANNEX I?",
+      "gold": [
+        "fixed-annex-I-1",
+        "fixed-annex-I-2",
+        "fixed-annex-I-4",
+        "fixed-annex-I-0",
+        "fixed-annex-I-3"
+      ],
+      "gold_structural": [
+        "annex-I"
+      ],
+      "retrieved": [
+        "fixed-article-110-0",
+        "fixed-recital-27-0",
+        "fixed-annex-I-3",
+        "fixed-article-46-1",
+        "fixed-article-105-0",
+        "fixed-article-43-2",
+        "fixed-article-106-0",
+        "fixed-annex-I-2",
+        "fixed-annex-I-4",
+        "fixed-article-96-0"
+      ],
+      "gold_rank": 3,
+      "latency_ms": 11.47,
+      "n_gold_windows": 5
+    },
+    {
+      "id": "qa-0098",
+      "chunk_id": "annex-II",
+      "chunk_type": "annex",
+      "question": "What are some examples of crimes included in Article 5(1), first subparagraph, point (h)(iii)?",
+      "gold": [
+        "fixed-annex-II-0"
+      ],
+      "gold_structural": [
+        "annex-II"
+      ],
+      "retrieved": [
+        "fixed-annex-II-0",
+        "fixed-article-5-2",
+        "fixed-recital-33-0",
+        "fixed-recital-59-1",
+        "fixed-article-3-5",
+        "fixed-annex-III-2",
+        "fixed-article-73-1",
+        "fixed-recital-5-0",
+        "fixed-article-73-0",
+        "fixed-recital-59-0"
+      ],
+      "gold_rank": 1,
+      "latency_ms": 37.18,
+      "n_gold_windows": 1
+    }
+  ]
+}

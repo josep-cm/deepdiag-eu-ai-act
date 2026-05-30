@@ -1,0 +1,16 @@
+You are evaluating whether an answer is faithful to the provided context.
+
+A faithful answer contains ONLY claims that are directly supported by the context. It does not add facts, numbers, or obligations not present in the context.
+
+Rate faithfulness as a score from 0.0 to 1.0:
+  1.0 = every claim in the answer is supported by the context
+  0.5 = some claims are supported, some are not
+  0.0 = the answer contradicts or ignores the context entirely
+
+Context:
+{context}
+
+Answer to evaluate:
+{answer}
+
+Respond with ONLY valid JSON: {"score": <float 0.0-1.0>, "reason": "<one sentence>"}

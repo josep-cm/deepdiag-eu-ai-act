@@ -1,0 +1,151 @@
+{
+  "n": 20,
+  "items": [
+    {
+      "id": "qa-0001",
+      "ours_faithfulness": 1.0,
+      "ragas_faithfulness": 1.0,
+      "ours_context_recall": 1.0,
+      "ragas_context_recall": 1.0
+    },
+    {
+      "id": "qa-0002",
+      "ours_faithfulness": 1.0,
+      "ragas_faithfulness": 1.0,
+      "ours_context_recall": 0.0,
+      "ragas_context_recall": 0.0
+    },
+    {
+      "id": "qa-0003",
+      "ours_faithfulness": 0.5,
+      "ragas_faithfulness": 0.75,
+      "ours_context_recall": 1.0,
+      "ragas_context_recall": 0.0
+    },
+    {
+      "id": "qa-0004",
+      "ours_faithfulness": 0.0,
+      "ragas_faithfulness": 1.0,
+      "ours_context_recall": 0.0,
+      "ragas_context_recall": 0.0
+    },
+    {
+      "id": "qa-0005",
+      "ours_faithfulness": 0.0,
+      "ragas_faithfulness": 0.0,
+      "ours_context_recall": 0.0,
+      "ragas_context_recall": 0.0
+    },
+    {
+      "id": "qa-0006",
+      "ours_faithfulness": 0.333,
+      "ragas_faithfulness": 0.3333333333333333,
+      "ours_context_recall": 0.5,
+      "ragas_context_recall": 0.5
+    },
+    {
+      "id": "qa-0007",
+      "ours_faithfulness": 0.25,
+      "ragas_faithfulness": 0.0,
+      "ours_context_recall": 0.0,
+      "ragas_context_recall": 0.0
+    },
+    {
+      "id": "qa-0008",
+      "ours_faithfulness": 0.5,
+      "ragas_faithfulness": 1.0,
+      "ours_context_recall": 1.0,
+      "ragas_context_recall": 1.0
+    },
+    {
+      "id": "qa-0009",
+      "ours_faithfulness": 1.0,
+      "ragas_faithfulness": 1.0,
+      "ours_context_recall": 0.0,
+      "ragas_context_recall": 0.0
+    },
+    {
+      "id": "qa-0010",
+      "ours_faithfulness": 1.0,
+      "ragas_faithfulness": 1.0,
+      "ours_context_recall": 1.0,
+      "ragas_context_recall": 0.0
+    },
+    {
+      "id": "qa-0011",
+      "ours_faithfulness": 0.25,
+      "ragas_faithfulness": 0.0,
+      "ours_context_recall": 0.0,
+      "ragas_context_recall": 0.0
+    },
+    {
+      "id": "qa-0012",
+      "ours_faithfulness": 1.0,
+      "ragas_faithfulness": 0.0,
+      "ours_context_recall": 1.0,
+      "ragas_context_recall": 0.0
+    },
+    {
+      "id": "qa-0013",
+      "ours_faithfulness": 1.0,
+      "ragas_faithfulness": 0.6666666666666666,
+      "ours_context_recall": 1.0,
+      "ragas_context_recall": 1.0
+    },
+    {
+      "id": "qa-0014",
+      "ours_faithfulness": 0.5,
+      "ragas_faithfulness": 0.5,
+      "ours_context_recall": 1.0,
+      "ragas_context_recall": 0.0
+    },
+    {
+      "id": "qa-0015",
+      "ours_faithfulness": 0.5,
+      "ragas_faithfulness": 0.5,
+      "ours_context_recall": 1.0,
+      "ragas_context_recall": 0.0
+    },
+    {
+      "id": "qa-0016",
+      "ours_faithfulness": 1.0,
+      "ragas_faithfulness": 0.6666666666666666,
+      "ours_context_recall": 0.0,
+      "ragas_context_recall": 0.0
+    },
+    {
+      "id": "qa-0017",
+      "ours_faithfulness": 0.5,
+      "ragas_faithfulness": 0.75,
+      "ours_context_recall": 1.0,
+      "ragas_context_recall": 1.0
+    },
+    {
+      "id": "qa-0018",
+      "ours_faithfulness": 0.0,
+      "ragas_faithfulness": 1.0,
+      "ours_context_recall": 0.0,
+      "ragas_context_recall": 0.0
+    },
+    {
+      "id": "qa-0019",
+      "ours_faithfulness": 0.0,
+      "ragas_faithfulness": 1.0,
+      "ours_context_recall": 0.0,
+      "ragas_context_recall": 0.0
+    },
+    {
+      "id": "qa-0020",
+      "ours_faithfulness": 0.0,
+      "ragas_faithfulness": 1.0,
+      "ours_context_recall": 0.0,
+      "ragas_context_recall": 0.0
+    }
+  ],
+  "agreement": {
+    "faithfulness_pearson_r": 0.128,
+    "faithfulness_mae": 0.358,
+    "context_recall_pearson_r": 0.539,
+    "context_recall_mae": 0.25
+  }
+}
